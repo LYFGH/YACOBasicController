@@ -7,1220 +7,370 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0394467FBD53FA463E54535128358805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2EE005924652D97AED25894DDFB5CF /* Foundation.framework */; };
-		03E9978EDF154FB0DA2E6C73541ACCA1 /* YACOTabBarBasicController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E979EFAA81EE98A0755028FCBDE2B2E /* YACOTabBarBasicController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		057716239B78B071CBE9F23A80B37A6A /* YACOBasicWKWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9F1EE258C46268002C9309ECFB8FA /* YACOBasicWKWebController.m */; };
-		076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9367D7C1B2A832306A5F2E596542E46F /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 150963E9A5A0132D60640ECDED86CDC8 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09363A6021AE2BF890864611810E3AC5 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B35190A8E1F82FA040094AAECF6F48D8 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EBF8C6B80B02F3959D2B863147FD4FB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE1FA8507F29FCFF2E08546C2CEFF2A /* SystemConfiguration.framework */; };
-		1646D16BB3A25030DF599CEA079C817E /* YACOWebProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F31A096CEA166D636BB4B77AEE09F /* YACOWebProgressView.m */; };
-		16BDE28F0178B7A54B17F6B9B01A15DA /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF1520CFDB822DE041D707A97FFA1AF /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19DE2D2B6053CF645CE5C574A5B1C616 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7305C6F881DB38AEAFB0F20198B2B34D /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 931CF539FEFDE9091A734A239CF688EA /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D98DBFD5436D709197653FA2D1B92C /* CoreGraphics.framework */; };
-		1F5F1422D34B553E5D33007A14A042ED /* YACOBaseWebViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 952E296A72CB047D3498BE340708925F /* YACOBaseWebViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24D55F6A3ADF8F82FDF883FE5FC12ADA /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A59C0D37A4360F696EF500276F2CA61 /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		27B482E9C5F3EB34714B6B8D6191E7E0 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E16B94B8F31AACF061188BC2A5E71CFD /* MJRefreshAutoFooter.m */; };
-		2DE10588BB794C01C31422146C2E5442 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAA7FC954C9542C7D6DD21B2036617D /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EFB507B57B4C8B3617DDE3BFC81D93 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33271B3ED35531B6C91C2B0DD68674D3 /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F1C82572406BB96046873ECF083256 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		335EA17DFB21B1C23327F2A1849310AD /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B242859B8995C3734E22359633ED9523 /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		33958A7B4C5DA8FBC4397FF0C07B0ADE /* UIApplication+YACOApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2FA0B17DF11CF2079D54CCE09BBEA8 /* UIApplication+YACOApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3722DFABC75D79F738516C37B7519FD1 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 302B86D2C1D95FC31721B7B9BED06858 /* MJRefreshAutoGifFooter.m */; };
-		379F25EF90C169D1E491BF9D63F104CB /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = E25276419C4AEB7380ECA386437D5269 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		386E43C990BABD2BE2718B21EA01A98F /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C2ED06382C7C9F11A13ECC0C19D15F /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C62E1A1503832D7590E646F54F7787F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2EE005924652D97AED25894DDFB5CF /* Foundation.framework */; };
-		3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EE02F0DF6543238572035C57D3DFC7 /* AFNetworkActivityIndicatorManager.m */; };
-		3E071476E1AE29A3ABA985D78923119E /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB2D9F67FF747BB241A67847B757B0D /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BAA6F2AFB5E66BF0E351FF6C23580E /* UIProgressView+AFNetworking.m */; };
-		3F6AAB97851AFE28F1929415DD4BB718 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B69FFFBE3B341012C4BCECFEC0262E /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4255E5E881C51CB75A47EEFE04B270CC /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A2860BDEEF1E8903BBE77D039340F4 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		439E0707D283A1E28FF1C183BD0B227A /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B603B9FD00E0A765926F70E20B1544E2 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43CEDEE5BFB83866D408FE06917FC3C0 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6D3E90E7BDCB11FF3BB07AC69B4128 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF39CA91A43C01C7D1F192BC96EE095 /* AFURLResponseSerialization.m */; };
-		48429329F431124EFB11A4DCB4CE44EC /* UILabel+YACOLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70204C7145C425DF341AE754245DE13E /* UILabel+YACOLabel.m */; };
-		4CDD32847C4DFF32E120F87BCE488512 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA18A99B74DE92EB6A5402456C5A76A /* MJRefreshStateHeader.m */; };
-		4EC72D6C7F6175F658103AB0F6CF7487 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 559D4212AFC78A0BA5564B10C90A2E6D /* MJRefreshAutoStateFooter.m */; };
-		500E95B6B156AC527A884E4861AC138E /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE21AC48608517C035AA7C79872412A /* NSBundle+MJRefresh.m */; };
-		50A7D4B1D992004B8BB23EBDD69C1FEA /* YACOBasicNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 64541E5CA93A5C4750E4D32AD7F7598C /* YACOBasicNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5189A16ED9C11DD27EB424CEB63A4CD2 /* YACOBasicController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BADBE5C4447D00658AAA5114B4933885 /* YACOBasicController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		567B4BF4309674A8523DF1E20D4671F2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BBFB666B13759FEF90F9CB7BA47C13C /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		576EBB347E9329A93FE0EB921A4EA3A1 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AEC0B6B146A011872F4E11A8058D34 /* MJRefreshNormalHeader.m */; };
-		57DC52073043C7FCB7B075B784CF6E1A /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C2A06B2EFECA746D98E7A54D3DEE3A /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BA19B2A727482FAA986249F742235B8 /* UIFont+YACOFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 145474CABCC994EF9544AD43FE532613 /* UIFont+YACOFont.m */; };
-		5DFA85066C51844C81A22FC469C2EE05 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F6320CC7715A90C02C53A88BCC351368 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E99D197383D0876632260B01E279774 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E071A5D5CE7298E7DE762CCCB9510F /* MJRefreshComponent.m */; };
-		5EECF8D80AF9AF67BA0D135FC9AD0E38 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EB8E010D62DB479952D6C14312016A /* MJRefreshBackGifFooter.m */; };
-		62E654F7180B592841BD378B6A087A1C /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9812DDDB1C9BC107D91BCC505CCCD7 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A63978EFAFADE6D927398C0A68E2AFE0 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66E037C310853F72B9AB5C84FC410C32 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BBDA12BC9104AB9515C18044C4011 /* AFImageDownloader.m */; };
-		6A507E7426311D7659BFA48A9260CEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2EE005924652D97AED25894DDFB5CF /* Foundation.framework */; };
-		6A7096283C7036C4B97030657219BFEF /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAC759C94D670C7A0101628E2B140D5 /* UIButton+AFNetworking.m */; };
-		6AE12F2BE6E02B5FD8CE827A10E8AB55 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B993039087C3D954CE03A79AB7A973B /* MJRefresh.bundle */; };
-		6CB1F50101DD44F1011CE9362A21C798 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04951EF7FD1510575FBA578E29D40164 /* MJRefresh.framework */; };
-		6E1B8E35B480271CE2BAF56F798218A4 /* UIViewController+RTRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06715A95321A3FD7CE345DD2FA9FC08F /* UIViewController+RTRootNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73356EEAEBBB5B13DC5B843B905276F3 /* RTRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 749DE24140D435E241067A7E63F70FA5 /* RTRootNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73FD93FACA51C4671B26C7A0B24ED1D5 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9726C337A42E64107F18CC0D68E6B8D7 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7511102B91C0126E8D8DF416E2EC44C1 /* YACOAutoScrollLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 50253F4CDB512B91FDE25A7A73CD29AA /* YACOAutoScrollLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		775FD4041C972482A0AC5A31665EA870 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB5450AD9D20DE4673E0D0561090D0 /* AFHTTPSessionManager.m */; };
-		7A9E3EED882F81CD91BB132437F5C39C /* Pods-YACOBasicController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3011712CA70EF668A2DB83A8794DEE36 /* Pods-YACOBasicController_Example-dummy.m */; };
-		7B8CCA5AEB0A7F40A08819DBC64FBF31 /* YACOBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D49004B11EDB0893EF67E3F36598951 /* YACOBasicViewController.m */; };
-		7CE0BD9168B5CA5664E4F35D415CAAA0 /* UIDevice+YACODevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AA2D0FAE50D1C2AFB8E2E8AC682884 /* UIDevice+YACODevice.m */; };
-		7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C50965B45BB87D77EABAF87D0625D66B /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E96E621A6FD19E78D6120009151C9B1 /* WebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1BE1358371B727033A043C22503FF8 /* WebViewJavascriptBridge.framework */; };
-		821A3833CDDF296B72BC45C083E81B16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2EE005924652D97AED25894DDFB5CF /* Foundation.framework */; };
-		821E419AF6D9774BBA940BCE790056C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2EE005924652D97AED25894DDFB5CF /* Foundation.framework */; };
-		853F5741DE00DD29690FCF5CAAEA20BC /* Pods-YACOBasicController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAA57A5B0C01E05828EEE7F9B3457F9 /* Pods-YACOBasicController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8550C1877103EDD75172BAA7A9718236 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBECA9FA168C039C58C3E5E122BE95A /* UIRefreshControl+AFNetworking.m */; };
-		87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBDBF96CCBBEC89C88C1BC8E00F5EEE /* AFSecurityPolicy.m */; };
-		891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 934497F1F36D606875205EA88D9123FB /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89D6E14EF627D0E7A1653AC5D73982DB /* YACOAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B86538056509EC7DBB0110CFE925DD /* YACOAutoScrollLabel.m */; };
-		8A78D840AB232DBC090FA617C790787A /* YACOBasicUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B67E04C807B042016953505787A9E35 /* YACOBasicUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AD5DCF40D6F1D970FAE3C28C7606317 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5873C8BAF5CB9478941E3E3D23DCC11 /* AFURLSessionManager.m */; };
-		8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 735C4A49F20D94A24B7A2DD1A1F1E97E /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD8E650D891C019637BEC903D4DFFF9 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 890C17213098D7B85E7AB675038908F2 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D63FD9257BAA17CD3E29EADF4A9F4E3 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D1450CC75D2F8A0ED78DF3A70D08F09C /* UIScrollView+MJRefresh.m */; };
-		8F0F7BB55DCDBD37D2E839C98F3A8799 /* UIFont+YACOFont.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C10DFA98CF367E3B7803EFD151D83C /* UIFont+YACOFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F645E0DAEE2139B0156EBA49C1EB155 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC7CEDE27FAC979BC4157A3F68D194C /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9230DB3D735A7F6E202EEB12671512F9 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49372744CC4B0D1D47E42415282CA808 /* MJRefreshFooter.m */; };
-		95C157B9FA910CAB40F0B8B786EBFF78 /* Pods-YACOBasicController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00824073C228F4572CE545D009294C4F /* Pods-YACOBasicController_Tests-dummy.m */; };
-		9A5CA25A63AF0B4164AE2959E548015B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D71078A825B9377105C5689D4620AF /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AB6A36247069FED8CE1E8A70B8078B2 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F41A530573F04A06C9B00ED7F4413B7A /* MJRefresh-dummy.m */; };
-		9B4D9E80D31B0B9EBE56273D5298CBE7 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B3EA74150067514C6CAAEB10911B3A58 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CCE08031C818A1904C5E4714830CD04 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1A3C64D57FC9E2BC9BF93A2FCB9D2 /* UIActivityIndicatorView+AFNetworking.m */; };
-		9E545607603CDE4089F91C59A377C140 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD1AC805C84B9BC1C17B9BADEE9AF58 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FB3E4C11A4AC3328DB00AFB3B8053B2 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8A58393E005F3B37C8B01774D68F36 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A18023D2E295B05336A9890B1F5E6CA3 /* WebViewJavascriptBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AB9915AC11AC9081730BCC5E2ABB91 /* WebViewJavascriptBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1C3DF8AED05A9B905AE114BF1CC7EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2EE005924652D97AED25894DDFB5CF /* Foundation.framework */; };
-		A52C0D8E36E59694B6AFE6D1B255612B /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E803077E1EFC90ADA42474026F5C1241 /* UIViewController+RTRootNavigationController.m */; };
-		A56A9025CDC6ACF1A9F3F95BA288ADEE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C464B07428D6A9B48BE7BB11C45DECC6 /* Security.framework */; };
-		A5B3CF0C5588B8345E6AD6DAE3851F65 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFA78E9E7AD6F47871B926BFFEE841 /* UIImageView+AFNetworking.m */; };
-		A972B5D3391DDE85EDDDCE95C1F2F7F7 /* UIColor+YACOColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DDA4C933FF0EB63ACD92A7B7B031BB /* UIColor+YACOColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB66F49F133FAE9BD9EAA9A29FAD75EE /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C02C0ADB5577F2048EF223B293C2F76C /* MJRefreshBackNormalFooter.m */; };
-		AC4A74DC434C307E6978E50CB86D08BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2EE005924652D97AED25894DDFB5CF /* Foundation.framework */; };
-		AFECA97AA0090421DFFC21C5BF6E8F75 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFCF851D7E7825976C77517D9C8CB9C /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0C3D9DB8C5BC72FBBAD1331C2C650F3 /* UIView+YACOFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 59778D9CFF0E6DB210333717F3AA0AC6 /* UIView+YACOFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 89703D8A8C79F6D6216CC5D7A51D603A /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B20292439308665CB10E89D72D74BBB1 /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 076E11575B6912406557B9FA04663591 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B415F46A5638F090B1862FA2F6E158A9 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7C6CAE68787236FC3EAD98C4DDEB63 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B44540EF4C7F43BA7BF17FC4841927E4 /* YACOBasicController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3F2EF3085B99EE7E68DFC14AA0AEC2 /* YACOBasicController-dummy.m */; };
-		B6D12914BCBDDB1AC0E583311314FF66 /* YACOBasicUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4907283CF1ADB8A5F39EBF16905335F2 /* YACOBasicUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E33422029CED46A8EFC73844C9D1F77 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD8D03BB3C22551D795835DEE60978CA /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0E497A03A9606894023CCA6D3DE799 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD908560CC7DD05CD296F1DF7CDD0496 /* YACOTabBarBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FAD9276B80CDE2121A76D7A9AD9CEB /* YACOTabBarBasicController.m */; };
-		BDE1C74EA27ECBCACBCB811CD9607C2B /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EF0BC00A53880C57203C1BD2FBC003 /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BE43DEACA009E9432DC795654B80F43B /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 102448F3C9C1632AB683B25989596122 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0CFB5EBBA6EA229E940436055CFF398 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0782DD0FE71D3E07FBD8EA99B6EDBFA0 /* MJRefreshGifHeader.m */; };
-		C10DA5E233803AECE910CCF8E9839FB5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB8A799C41045AEADC3896A3830C783 /* MobileCoreServices.framework */; };
-		C11CD3314246419329D65ECC498663D2 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7F4716A0681A224465657AEEC8F548 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2DBEF8A34E0FF1947531C316418C67A /* UIDevice+YACODevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FFDA669C8A8082CA551E39D7A0C814 /* UIDevice+YACODevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C386A2745D4B466935A4860C081882F4 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CDA5E970F79122B4B4214EC6E0541 /* AFNetworking.framework */; };
-		C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 343D8E32884BFFED7C6A2B8686DBF98A /* AFNetworking-dummy.m */; };
-		C73699EB31859B125378778082A62E60 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD7FED9CCF44F6DB2D8505231003C0A /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD22258E3B0E16BD58BFFDBD00250F4E /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C5B5CDE90C544342D28B8F0EE727D7 /* WebViewJavascriptBridge-dummy.m */; };
-		CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1923E505C9268C32EA0804DFF8A17E /* UIWebView+AFNetworking.m */; };
-		D291925F0CAEBC063B12582E0CAA4132 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1244A00EEB4283A921BFC4F0295DA764 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D35683C97B762F84E5F9F5F9EFC29A31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4801A661831E6F48160B19BBD65DF6BF /* UIKit.framework */; };
-		D3963B42B9A9E79F983F3FD1CB63E83F /* YACOBasicUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FCFE44848BCA9274E49E938CDA1BF8 /* YACOBasicUIKit-dummy.m */; };
-		D3D7E5D28E3A69CDE00EBF8CB78B7642 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EA3B6267F4E1083983823F23DC100 /* MJRefreshAutoNormalFooter.m */; };
-		D41CF2C36D5B770BCECA1CF88C3670FD /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811619879A3637A100DFB1B30C4066C /* RTRootNavigationController.m */; };
-		D5C169039395DA323C675710954E884A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3DE57CE99BE6CD132A0FE7032FF79 /* AFAutoPurgingImageCache.m */; };
-		DB151EA07EC321904884C7972B95C29A /* YACOWebProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2F60D74A7442FE435413560D87E0AA /* YACOWebProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB3B95DA37A1867576BAF61F92B79EE0 /* UIColor+YACOColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB783AB6CAE9F42968DE523E316E7D7A /* UIColor+YACOColor.m */; };
-		DEE3E21758E986E744A24F30DA41B878 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6009A4517DCD5CA161AA52030871BB6A /* UIScrollView+MJExtension.m */; };
-		E1E85E988750CBDFA132FAF11C206520 /* YACOBasicWKWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A523D034228AD3A6BA5C3236A2070DD /* YACOBasicWKWebController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E551C3062F5513C5CAFA03FCE4058005 /* UIView+YACOFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAB4962DFE82201B813783EF34B7D7 /* UIView+YACOFrame.m */; };
-		E6937F73D5B04BE67153D3C3AACD8922 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B1945C353BE0AA69F4568641A41E6062 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E75BE8041D9C6207509DF929DDDA0609 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2974A28CAF2D90E9316A7896498CB5 /* MJRefreshBackFooter.m */; };
-		E7805B558ACD291DAE469478DA1D29E2 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F76B8AB10560A74765E12ECC30541AD7 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7EC86326D06D3EA8AE29520985D5D23 /* YACOBasicUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C351566D41F499AF6BD4473A9106D0 /* YACOBasicUIKit.framework */; };
-		E8171A2F317DB5E85FEEB949907D4F61 /* Pods-YACOBasicController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4E766CF6A67BB7430BA57457CB2A57 /* Pods-YACOBasicController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA8F03E9D188A9086696DB8B093FAA1C /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D7D84AA0B984FBC4B6D511D0A2FC13 /* MJRefreshHeader.m */; };
-		ECB20F8E693B05B08F6F381A77EA8E9A /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B1322F3F67AEEDEC8820965D2C6677 /* MJRefreshBackStateFooter.m */; };
-		EF377BD250E23E1145A17E69C5A31F5F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 880DB38F16B3D01917A9D111C843F7EB /* AFNetworkReachabilityManager.m */; };
-		F06A1D57921458C44558DDC1E36F3776 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F47DC7F2E4F16DC58B9F9A087E4143F /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0F736D702B7F2BD2608E2A0BC940439 /* YACOBasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D8E79F4D007A0351A5425D33B1BBF /* YACOBasicNavigationController.m */; };
-		F2E45795D907269A88804587F6BE9842 /* UIApplication+YACOApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 73776CD0C9572F1F1C848999A78BAC44 /* UIApplication+YACOApplication.m */; };
-		F4243645999384E5C5A5D301F091789C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AACB4395C1CD9AF49F0DEA13F57602 /* WebKit.framework */; };
-		F7CD3A164A8C4F0B70AA3158A58B5972 /* UILabel+YACOLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E4AB3ED1EEFAB8C5C0E609BB522B2E6 /* UILabel+YACOLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7CE60A78F6CE38759627800AE106236 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F88BF4B26AD968525B8CCF13F94DD10 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F84D5B6C81712530B75013FFA8FA3A3B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DB41E65FA40245ED92B49B7C793AF03C /* AFURLRequestSerialization.m */; };
-		FADC4D249D490A2C52E0D0F95F8A098F /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35700B142D5DF8B3285CBB834F387259 /* UIView+MJExtension.m */; };
-		FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C388186FAB2FED6EDE5C71BA08A501D /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFADB3C2E6DA151E6C1FFFA92BFF70D5 /* YACOBasicViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 843D63770B33CB22819C09C61825BB22 /* YACOBasicViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFE11CC03CCDF7E1887E287E90C98C88 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B84148A7D0446708C1BC182EE01EB /* MJRefreshConst.m */; };
+		092BE61F111B919095F8402E97BB3180 /* YACOBasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5DBF237AE88855A118BEEDE0CA3049 /* YACOBasicNavigationController.m */; };
+		13948462AEC9F70E1152DF9E05E5DDB6 /* UIViewController+RTRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5599EFFF3F6A03EB2EC125B5B43EC1 /* UIViewController+RTRootNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F9C666D7771594934DA0977D92777A9 /* YACOBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470FCF9F227B84E406F88D973A9E1F9 /* YACOBasicViewController.m */; };
+		35B305DCED9C934F9AE18CE63F3452B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4526DC72F43268300282FDE8EDFECA6B /* YACOBasicController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB255D50BCDA86CD5D16610EC4DDA94F /* YACOBasicController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49EFDBE8EEF188FB03D1820AC050D396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		54719EB5C88BBBA9C07B5B358BC4F2FE /* YACOBasicController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF3832532FB52AAE7670B251F98D46 /* YACOBasicController-dummy.m */; };
+		5631897B538D8F581B16B9B4DB8BCD43 /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0F537BD2229D989072F5D817D6D4A2 /* RTRootNavigationController.m */; };
+		6FD34B06E13F2ABD8B4B2338F558CD24 /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4544CCF916B19B2FAD0E36EF187AEB /* UIViewController+RTRootNavigationController.m */; };
+		9337BD8BDFA00F24993C2D104E46A078 /* Pods-YACOBasicController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F768AB3554DCF651E0768D2EA7A1C690 /* Pods-YACOBasicController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB4A08A4303E0E5BC3E8288E900D6607 /* Pods-YACOBasicController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B244D684BB6D0608A8EB74EE0A6416C5 /* Pods-YACOBasicController_Example-dummy.m */; };
+		C060D4E48EA5C75CDF9E33D7C71350C2 /* YACOBasicViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E27FA2E80E1E5C9F005D6353C865562A /* YACOBasicViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF4B9DCF12261B3F80657D8183EB2F91 /* YACOTabBarBasicController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525DB88F213D0F47E31874AA6BF0FCD /* YACOTabBarBasicController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5C6CD787644C50F57C25AD27032A7DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D75C72D3CDD7382626CB7C671545A0D2 /* Pods-YACOBasicController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 431AE60B235C8C2B0673047022E27B32 /* Pods-YACOBasicController_Tests-dummy.m */; };
+		D90305FCEA02E79A58C1ECFB1A66B40B /* YACOBasicNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D4F3D62216F3FFE6C14EECDA6275BD /* YACOBasicNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDFD586902231D407495566E2ECDB421 /* YACOTabBarBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EB4B6AF20A8A10FA4F0B046E15C1B /* YACOTabBarBasicController.m */; };
+		EFFCAAA672AF52D3CBC1C64719A0629B /* Pods-YACOBasicController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA53E4318B5D274A11D02F5A255405E1 /* Pods-YACOBasicController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18362940A92261AD6D3C41C543E9B46 /* RTRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CB14A857E33889979139BF7875DFF6 /* RTRootNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		176500E43E9C68BBDF1773E7F67C99FC /* PBXContainerItemProxy */ = {
+		43AC344C7D173C4EA9E5C0362FA37FBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 57757263AFE6E8EE11BEEBC4E9BE99FA;
-			remoteInfo = YACOBasicUIKit;
-		};
-		3BB3EE6277712D53C961F9521D7ECEC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF160BF4E9F6EE312A9C8967B5A3C071;
-			remoteInfo = AFNetworking;
-		};
-		52A086E292F08A0717BF1CAAD24DF522 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF160BF4E9F6EE312A9C8967B5A3C071;
-			remoteInfo = AFNetworking;
-		};
-		5B66098F189593B36ED5295A68D155CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5158A1E8D4DA50C5A5BF11C548D6A0F;
-			remoteInfo = YACOBasicController;
-		};
-		6EA8042125D3E061F25D07B594FC3DDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE9FEA7E6E710D3EE45F0DF320596B33;
-			remoteInfo = WebViewJavascriptBridge;
-		};
-		7731DF856905B633A362211F3A9A040C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 32CCF78F735E1902D02BA56199191C1B;
+			remoteGlobalIDString = C24AA12E5962ED2955FE3A8A86836575;
 			remoteInfo = "Pods-YACOBasicController_Example";
 		};
-		B9613F8B9AE31E87E54025A3278621B6 /* PBXContainerItemProxy */ = {
+		D6AC96624AE88E5E8A48A47892D4DD57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 57757263AFE6E8EE11BEEBC4E9BE99FA;
-			remoteInfo = YACOBasicUIKit;
-		};
-		C5AC0E4D0FFAF8211C0D94801C10FC16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE9FEA7E6E710D3EE45F0DF320596B33;
-			remoteInfo = WebViewJavascriptBridge;
-		};
-		D1B2237D789DFBD06B92FC554254D2B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C76AC070DB65255C67667F7876EE238;
-			remoteInfo = MJRefresh;
-		};
-		EA4ABB0E3F4E60579C1D997644E555BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C76AC070DB65255C67667F7876EE238;
-			remoteInfo = MJRefresh;
+			remoteGlobalIDString = C6ACE756A5CDC1CC043168036B6DEC83;
+			remoteInfo = YACOBasicController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00824073C228F4572CE545D009294C4F /* Pods-YACOBasicController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicController_Tests-dummy.m"; sourceTree = "<group>"; };
-		01B1322F3F67AEEDEC8820965D2C6677 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
-		02D2FD2EAADE567336A01143A29A0914 /* YACOBasicUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YACOBasicUIKit.modulemap; sourceTree = "<group>"; };
-		04951EF7FD1510575FBA578E29D40164 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06715A95321A3FD7CE345DD2FA9FC08F /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RTRootNavigationController.h"; path = "YACOBasicController/Classes/RTRootNavigationController/UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
-		076E11575B6912406557B9FA04663591 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
-		077BE7052B26FC535EE0C5CED9790122 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0782DD0FE71D3E07FBD8EA99B6EDBFA0 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
-		0A1BE1358371B727033A043C22503FF8 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A80A634E5976B4E9F9D2AB1B1E57C85 /* Pods-YACOBasicController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicController_Tests-Info.plist"; sourceTree = "<group>"; };
-		0AAC759C94D670C7A0101628E2B140D5 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		0BF9F1EE258C46268002C9309ECFB8FA /* YACOBasicWKWebController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOBasicWKWebController.m; path = YACOBasicController/Classes/BaseWebViewController/YACOBasicWKWebController.m; sourceTree = "<group>"; };
-		0D2FA0B17DF11CF2079D54CCE09BBEA8 /* UIApplication+YACOApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+YACOApplication.h"; path = "YACOBasicUIKit/Classes/UIApplication/UIApplication+YACOApplication.h"; sourceTree = "<group>"; };
-		0D49004B11EDB0893EF67E3F36598951 /* YACOBasicViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOBasicViewController.m; path = YACOBasicController/Classes/BaseViewController/YACOBasicViewController.m; sourceTree = "<group>"; };
-		0F9E0D8E7F1F4EE7C565F8349B2C8B28 /* Pods-YACOBasicController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		102448F3C9C1632AB683B25989596122 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
-		1244A00EEB4283A921BFC4F0295DA764 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		12D98DBFD5436D709197653FA2D1B92C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		145474CABCC994EF9544AD43FE532613 /* UIFont+YACOFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+YACOFont.m"; path = "YACOBasicUIKit/Classes/UIFont/UIFont+YACOFont.m"; sourceTree = "<group>"; };
-		150963E9A5A0132D60640ECDED86CDC8 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		1811619879A3637A100DFB1B30C4066C /* RTRootNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTRootNavigationController.m; path = YACOBasicController/Classes/RTRootNavigationController/RTRootNavigationController.m; sourceTree = "<group>"; };
-		19C28779A6248772738E980F16E43722 /* YACOBasicUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YACOBasicUIKit.framework; path = YACOBasicUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AAA7FC954C9542C7D6DD21B2036617D /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		1BB8A799C41045AEADC3896A3830C783 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		1CE21AC48608517C035AA7C79872412A /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
-		1DAAB4962DFE82201B813783EF34B7D7 /* UIView+YACOFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YACOFrame.m"; path = "YACOBasicUIKit/Classes/UIView/UIView+YACOFrame.m"; sourceTree = "<group>"; };
-		1E4AB3ED1EEFAB8C5C0E609BB522B2E6 /* UILabel+YACOLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+YACOLabel.h"; path = "YACOBasicUIKit/Classes/UILabel/UILabel+YACOLabel.h"; sourceTree = "<group>"; };
-		21B86538056509EC7DBB0110CFE925DD /* YACOAutoScrollLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOAutoScrollLabel.m; path = YACOBasicUIKit/Classes/UILabel/YACOAutoScrollLabel.m; sourceTree = "<group>"; };
-		23D71078A825B9377105C5689D4620AF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		28DDA4C933FF0EB63ACD92A7B7B031BB /* UIColor+YACOColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YACOColor.h"; path = "YACOBasicUIKit/Classes/UIColor/UIColor+YACOColor.h"; sourceTree = "<group>"; };
-		2A523D034228AD3A6BA5C3236A2070DD /* YACOBasicWKWebController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOBasicWKWebController.h; path = YACOBasicController/Classes/BaseWebViewController/YACOBasicWKWebController.h; sourceTree = "<group>"; };
-		2B7F31A096CEA166D636BB4B77AEE09F /* YACOWebProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOWebProgressView.m; path = YACOBasicController/Classes/BaseWebViewController/YACOWebProgressView.m; sourceTree = "<group>"; };
-		2C388186FAB2FED6EDE5C71BA08A501D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		2CDD082A36A06A19D604C9AC3194BB6C /* Pods-YACOBasicController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2D9A445A9FC083A2A8CE1DDE926C5085 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3011712CA70EF668A2DB83A8794DEE36 /* Pods-YACOBasicController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicController_Example-dummy.m"; sourceTree = "<group>"; };
-		302B86D2C1D95FC31721B7B9BED06858 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
-		33E071A5D5CE7298E7DE762CCCB9510F /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
-		343D8E32884BFFED7C6A2B8686DBF98A /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		35700B142D5DF8B3285CBB834F387259 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
-		35FAD9276B80CDE2121A76D7A9AD9CEB /* YACOTabBarBasicController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOTabBarBasicController.m; path = YACOBasicController/Classes/BaseTabBarController/YACOTabBarBasicController.m; sourceTree = "<group>"; };
-		36AA2D0FAE50D1C2AFB8E2E8AC682884 /* UIDevice+YACODevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YACODevice.m"; path = "YACOBasicUIKit/Classes/UIDevice/UIDevice+YACODevice.m"; sourceTree = "<group>"; };
-		36AB5450AD9D20DE4673E0D0561090D0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		3B993039087C3D954CE03A79AB7A973B /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
-		3BBFB666B13759FEF90F9CB7BA47C13C /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		3E979EFAA81EE98A0755028FCBDE2B2E /* YACOTabBarBasicController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOTabBarBasicController.h; path = YACOBasicController/Classes/BaseTabBarController/YACOTabBarBasicController.h; sourceTree = "<group>"; };
-		44EE02F0DF6543238572035C57D3DFC7 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		4801A661831E6F48160B19BBD65DF6BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4907283CF1ADB8A5F39EBF16905335F2 /* YACOBasicUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOBasicUIKit.h; path = YACOBasicUIKit/Classes/YACOBasicUIKit.h; sourceTree = "<group>"; };
-		49372744CC4B0D1D47E42415282CA808 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
-		4B67E04C807B042016953505787A9E35 /* YACOBasicUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicUIKit-umbrella.h"; sourceTree = "<group>"; };
-		4B8B84148A7D0446708C1BC182EE01EB /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
-		4CBECA9FA168C039C58C3E5E122BE95A /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		4E2F60D74A7442FE435413560D87E0AA /* YACOWebProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOWebProgressView.h; path = YACOBasicController/Classes/BaseWebViewController/YACOWebProgressView.h; sourceTree = "<group>"; };
-		4E33422029CED46A8EFC73844C9D1F77 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		4E7F4716A0681A224465657AEEC8F548 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
-		50253F4CDB512B91FDE25A7A73CD29AA /* YACOAutoScrollLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOAutoScrollLabel.h; path = YACOBasicUIKit/Classes/UILabel/YACOAutoScrollLabel.h; sourceTree = "<group>"; };
-		511E1B793E8C029AE026EF775D78BED2 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		51D0C8267A5FD9895A83317775FBD592 /* YACOBasicController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicController-prefix.pch"; sourceTree = "<group>"; };
-		559D4212AFC78A0BA5564B10C90A2E6D /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
-		57BAA6F2AFB5E66BF0E351FF6C23580E /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		59695E4790411D8F8083F16BB2F9288F /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
-		59778D9CFF0E6DB210333717F3AA0AC6 /* UIView+YACOFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YACOFrame.h"; path = "YACOBasicUIKit/Classes/UIView/UIView+YACOFrame.h"; sourceTree = "<group>"; };
-		5AAA57A5B0C01E05828EEE7F9B3457F9 /* Pods-YACOBasicController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicController_Example-umbrella.h"; sourceTree = "<group>"; };
-		5BE3DE57CE99BE6CD132A0FE7032FF79 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		5F1923E505C9268C32EA0804DFF8A17E /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		6009A4517DCD5CA161AA52030871BB6A /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
-		60F1C82572406BB96046873ECF083256 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		64541E5CA93A5C4750E4D32AD7F7598C /* YACOBasicNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOBasicNavigationController.h; path = YACOBasicController/Classes/BaseNavigationController/YACOBasicNavigationController.h; sourceTree = "<group>"; };
-		64E49B34C0346F5F72259E8F4AD95E32 /* YACOBasicController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOBasicController.xcconfig; sourceTree = "<group>"; };
-		6B83603009B35ADED951E246CCC1226C /* Pods-YACOBasicController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B99CCB106EFF49A71C9A8D0E9A22DAF /* YACOBasicUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicUIKit-prefix.pch"; sourceTree = "<group>"; };
-		6BA18A99B74DE92EB6A5402456C5A76A /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
-		6CD1AC805C84B9BC1C17B9BADEE9AF58 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
-		6E4181BEBAE54D1A3ADD71F537307B15 /* WebViewJavascriptBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WebViewJavascriptBridge.modulemap; sourceTree = "<group>"; };
-		6E525887447CD4C1B454EDC369F2EC7A /* Pods-YACOBasicController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F47DC7F2E4F16DC58B9F9A087E4143F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		70204C7145C425DF341AE754245DE13E /* UILabel+YACOLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+YACOLabel.m"; path = "YACOBasicUIKit/Classes/UILabel/UILabel+YACOLabel.m"; sourceTree = "<group>"; };
-		7305C6F881DB38AEAFB0F20198B2B34D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		735C4A49F20D94A24B7A2DD1A1F1E97E /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		73776CD0C9572F1F1C848999A78BAC44 /* UIApplication+YACOApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YACOApplication.m"; path = "YACOBasicUIKit/Classes/UIApplication/UIApplication+YACOApplication.m"; sourceTree = "<group>"; };
-		749DE24140D435E241067A7E63F70FA5 /* RTRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTRootNavigationController.h; path = YACOBasicController/Classes/RTRootNavigationController/RTRootNavigationController.h; sourceTree = "<group>"; };
-		749F2992D3F20920D2E428342B20FB46 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebViewJavascriptBridge.framework; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77B7ECF9F2ACF3B077C5CF887FB56E55 /* Pods-YACOBasicController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicController_Tests.modulemap"; sourceTree = "<group>"; };
-		7BC7CEDE27FAC979BC4157A3F68D194C /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		7C2974A28CAF2D90E9316A7896498CB5 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
-		7C9BBDA12BC9104AB9515C18044C4011 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		7F88BF4B26AD968525B8CCF13F94DD10 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		7FAFA78E9E7AD6F47871B926BFFEE841 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		80AACB4395C1CD9AF49F0DEA13F57602 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		843D63770B33CB22819C09C61825BB22 /* YACOBasicViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOBasicViewController.h; path = YACOBasicController/Classes/BaseViewController/YACOBasicViewController.h; sourceTree = "<group>"; };
-		87AB9915AC11AC9081730BCC5E2ABB91 /* WebViewJavascriptBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-umbrella.h"; sourceTree = "<group>"; };
-		87CAA4972A6B71322C5E5205157CF560 /* YACOBasicUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YACOBasicUIKit-Info.plist"; sourceTree = "<group>"; };
-		880DB38F16B3D01917A9D111C843F7EB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		88C157041C444077BAF1ED8BF0515F0E /* YACOBasicUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOBasicUIKit.xcconfig; sourceTree = "<group>"; };
-		88EFB507B57B4C8B3617DDE3BFC81D93 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		890C17213098D7B85E7AB675038908F2 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		89703D8A8C79F6D6216CC5D7A51D603A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		8AF39CA91A43C01C7D1F192BC96EE095 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		8B9812DDDB1C9BC107D91BCC505CCCD7 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		8E9658756BF42BD41503309B9DA462BD /* YACOBasicController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YACOBasicController.framework; path = YACOBasicController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EB1A3C64D57FC9E2BC9BF93A2FCB9D2 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		8F3F2EF3085B99EE7E68DFC14AA0AEC2 /* YACOBasicController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YACOBasicController-dummy.m"; sourceTree = "<group>"; };
-		8F7C6CAE68787236FC3EAD98C4DDEB63 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
-		8FE1FA8507F29FCFF2E08546C2CEFF2A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		9078E086FF83BD923301A0A3BE466E8D /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
-		931CF539FEFDE9091A734A239CF688EA /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		934497F1F36D606875205EA88D9123FB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		9367D7C1B2A832306A5F2E596542E46F /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		952E296A72CB047D3498BE340708925F /* YACOBaseWebViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOBaseWebViewProtocol.h; path = YACOBasicController/Classes/BaseWebViewController/YACOBaseWebViewProtocol.h; sourceTree = "<group>"; };
-		95A2860BDEEF1E8903BBE77D039340F4 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
-		96AD76668B5EB8EFBA8432A3E96B9268 /* Pods-YACOBasicController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9726C337A42E64107F18CC0D68E6B8D7 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
-		985EA3B6267F4E1083983823F23DC100 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
-		98FFDA669C8A8082CA551E39D7A0C814 /* UIDevice+YACODevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YACODevice.h"; path = "YACOBasicUIKit/Classes/UIDevice/UIDevice+YACODevice.h"; sourceTree = "<group>"; };
-		9A59C0D37A4360F696EF500276F2CA61 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
-		9A8A58393E005F3B37C8B01774D68F36 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
-		9B4D8E79F4D007A0351A5425D33B1BBF /* YACOBasicNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOBasicNavigationController.m; path = YACOBasicController/Classes/BaseNavigationController/YACOBasicNavigationController.m; sourceTree = "<group>"; };
-		9CE1D5E3E6AC4A9F835AE8DD92C1BC5E /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		9D4373B2EB3E3611B5E9448C9691A7A2 /* WebViewJavascriptBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WebViewJavascriptBridge-Info.plist"; sourceTree = "<group>"; };
+		08FE26677C8E150220C5ADE02A5B054A /* YACOBasicController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOBasicController.release.xcconfig; sourceTree = "<group>"; };
+		0DD4C82EE9386FC8F269A9D08EF4AD27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1133AFBEAE854EC7180CAD8430DF6669 /* Pods_YACOBasicController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicController_Tests.framework; path = "Pods-YACOBasicController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120A671E0365933CB3A004799F6EF8D9 /* YACOBasicController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOBasicController.debug.xcconfig; sourceTree = "<group>"; };
+		13A39B70993B90FE3008C357D98FFC6C /* Pods-YACOBasicController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YACOBasicController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2525DB88F213D0F47E31874AA6BF0FCD /* YACOTabBarBasicController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOTabBarBasicController.h; path = YACOBasicController/Classes/BaseTabBarController/YACOTabBarBasicController.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		394B116FF41D54CD42B9344736AE6AF5 /* YACOBasicController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YACOBasicController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		39CB14A857E33889979139BF7875DFF6 /* RTRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTRootNavigationController.h; path = YACOBasicController/Classes/RTRootNavigationController/RTRootNavigationController.h; sourceTree = "<group>"; };
+		3B343ECB02D124B5D9C1819E3803E41F /* Pods_YACOBasicController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicController_Example.framework; path = "Pods-YACOBasicController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		431AE60B235C8C2B0673047022E27B32 /* Pods-YACOBasicController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicController_Tests-dummy.m"; sourceTree = "<group>"; };
+		48FF858B06F01D9C861C8DB3ED62D281 /* Pods-YACOBasicController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A5599EFFF3F6A03EB2EC125B5B43EC1 /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RTRootNavigationController.h"; path = "YACOBasicController/Classes/RTRootNavigationController/UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		5B4544CCF916B19B2FAD0E36EF187AEB /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RTRootNavigationController.m"; path = "YACOBasicController/Classes/RTRootNavigationController/UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		6193BAD465E6825CADB52ECCAF490948 /* Pods-YACOBasicController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicController_Example-Info.plist"; sourceTree = "<group>"; };
+		7F2C495DD1B42D88BD012801C71B1DF4 /* YACOBasicController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YACOBasicController-Info.plist"; sourceTree = "<group>"; };
+		7F3E9190B3C0DED9A67FCB5EECE750F5 /* Pods-YACOBasicController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		82B8A49B0BA1EC7F8F2A333EB9BF4EDA /* YACOBasicController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YACOBasicController.framework; path = YACOBasicController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470FCF9F227B84E406F88D973A9E1F9 /* YACOBasicViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOBasicViewController.m; path = YACOBasicController/Classes/BaseViewController/YACOBasicViewController.m; sourceTree = "<group>"; };
+		8C2E9433BE99A3DAA563E8933FFC1C4F /* Pods-YACOBasicController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicController_Tests.modulemap"; sourceTree = "<group>"; };
+		8FBF3832532FB52AAE7670B251F98D46 /* YACOBasicController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YACOBasicController-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EFCF851D7E7825976C77517D9C8CB9C /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
-		A1AEC0B6B146A011872F4E11A8058D34 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
-		A5873C8BAF5CB9478941E3E3D23DCC11 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		A63978EFAFADE6D927398C0A68E2AFE0 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		A837E2287F1A913762731FF27F74C357 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
-		A9C8CFE28E26D14C5BA380FDC074D713 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		ACBDBF96CCBBEC89C88C1BC8E00F5EEE /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		B1945C353BE0AA69F4568641A41E6062 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		B21A38907EB107A0D8A9E1D2205348DC /* Pods-YACOBasicController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B242859B8995C3734E22359633ED9523 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		B35190A8E1F82FA040094AAECF6F48D8 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
-		B3EA74150067514C6CAAEB10911B3A58 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		B603B9FD00E0A765926F70E20B1544E2 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
-		B6D7D84AA0B984FBC4B6D511D0A2FC13 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
-		B7E0BC134991EC774E227B5CF963BF26 /* Pods-YACOBasicController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicController_Example-Info.plist"; sourceTree = "<group>"; };
-		BADBE5C4447D00658AAA5114B4933885 /* YACOBasicController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicController-umbrella.h"; sourceTree = "<group>"; };
-		BBB2D9F67FF747BB241A67847B757B0D /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
-		BC0E497A03A9606894023CCA6D3DE799 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
-		C02C0ADB5577F2048EF223B293C2F76C /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
-		C044F40E01C3656F58D2AF720FF5D6AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C3BEFBBB185CFD17EE78D4BAB3442AEE /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3C10DFA98CF367E3B7803EFD151D83C /* UIFont+YACOFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+YACOFont.h"; path = "YACOBasicUIKit/Classes/UIFont/UIFont+YACOFont.h"; sourceTree = "<group>"; };
-		C464B07428D6A9B48BE7BB11C45DECC6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		C50965B45BB87D77EABAF87D0625D66B /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		C5CCA961F5944681A378EDCBC0B4133D /* Pods-YACOBasicController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C7C2ED06382C7C9F11A13ECC0C19D15F /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
-		C7E75D76C0123C7126884D70D4589EDF /* Pods_YACOBasicController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicController_Example.framework; path = "Pods-YACOBasicController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8C2A06B2EFECA746D98E7A54D3DEE3A /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
-		C8EB8E010D62DB479952D6C14312016A /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		C9EBA2310265057A7758C516DB488CEC /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
-		CD1CDA5E970F79122B4B4214EC6E0541 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF1520CFDB822DE041D707A97FFA1AF /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
-		D0C5B5CDE90C544342D28B8F0EE727D7 /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
-		D1450CC75D2F8A0ED78DF3A70D08F09C /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
-		D21B7B51E1BF5DEBDC380B1D9F9D1ED5 /* WebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.xcconfig; sourceTree = "<group>"; };
-		D3FCFE44848BCA9274E49E938CDA1BF8 /* YACOBasicUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YACOBasicUIKit-dummy.m"; sourceTree = "<group>"; };
-		D9B69FFFBE3B341012C4BCECFEC0262E /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
-		DB41E65FA40245ED92B49B7C793AF03C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		DB783AB6CAE9F42968DE523E316E7D7A /* UIColor+YACOColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YACOColor.m"; path = "YACOBasicUIKit/Classes/UIColor/UIColor+YACOColor.m"; sourceTree = "<group>"; };
-		DC6D3E90E7BDCB11FF3BB07AC69B4128 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
-		DDD7FED9CCF44F6DB2D8505231003C0A /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
-		E16B94B8F31AACF061188BC2A5E71CFD /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
-		E25276419C4AEB7380ECA386437D5269 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		E5C351566D41F499AF6BD4473A9106D0 /* YACOBasicUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YACOBasicUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6D67DCA4B9B4D74A003E730F8716F83 /* Pods_YACOBasicController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicController_Tests.framework; path = "Pods-YACOBasicController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E803077E1EFC90ADA42474026F5C1241 /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RTRootNavigationController.m"; path = "YACOBasicController/Classes/RTRootNavigationController/UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
-		ED27543422B7FC4BE943EFBCE3C6C320 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
-		ED2EE005924652D97AED25894DDFB5CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ED84BCF21D5E0517BDE1EB66B5299809 /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
-		EFDFA2AC6E5B3C5D86AC363D3A3E1E29 /* YACOBasicController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YACOBasicController.modulemap; sourceTree = "<group>"; };
-		F41A530573F04A06C9B00ED7F4413B7A /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
-		F4805137B12E49AA5F30C30BC0D6317F /* YACOBasicController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YACOBasicController-Info.plist"; sourceTree = "<group>"; };
-		F55F8FF3F1BF0C9B0435965239A11153 /* YACOBasicController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YACOBasicController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F6320CC7715A90C02C53A88BCC351368 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
-		F6BD8E44F3BCB5F5B34D9B73CE98C11F /* Pods-YACOBasicController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F76B8AB10560A74765E12ECC30541AD7 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		F90611BF52BCC4379FA604DD41D93A75 /* Pods-YACOBasicController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YACOBasicController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F9EF0BC00A53880C57203C1BD2FBC003 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		FD4E766CF6A67BB7430BA57457CB2A57 /* Pods-YACOBasicController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FF8B995B22715B68B98FE97109394A11 /* Pods-YACOBasicController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicController_Example.modulemap"; sourceTree = "<group>"; };
+		A78718B3A1D9B6C6F209456F2171C9EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A7C352DCDE5028E64AA3B72977715311 /* Pods-YACOBasicController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A82AFD62009816126ECB9B66C09D973D /* Pods-YACOBasicController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B244D684BB6D0608A8EB74EE0A6416C5 /* Pods-YACOBasicController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicController_Example-dummy.m"; sourceTree = "<group>"; };
+		B59EB4B6AF20A8A10FA4F0B046E15C1B /* YACOTabBarBasicController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOTabBarBasicController.m; path = YACOBasicController/Classes/BaseTabBarController/YACOTabBarBasicController.m; sourceTree = "<group>"; };
+		B8A05600651F75E16B4991830FE7B5D7 /* YACOBasicController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicController-prefix.pch"; sourceTree = "<group>"; };
+		B8D90F754D4C640DD2E4163D2D9EF832 /* Pods-YACOBasicController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicController_Tests-Info.plist"; sourceTree = "<group>"; };
+		BCDB665B1BE24FC43BED183CFB88EB65 /* Pods-YACOBasicController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BF8F1D1F1019DF355C8890D0B531702E /* Pods-YACOBasicController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B36308E727FBCD5922E6CF38136DAE /* Pods-YACOBasicController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA53E4318B5D274A11D02F5A255405E1 /* Pods-YACOBasicController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CB255D50BCDA86CD5D16610EC4DDA94F /* YACOBasicController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicController-umbrella.h"; sourceTree = "<group>"; };
+		CFD377725DE8A27F25D5E9A731F92489 /* Pods-YACOBasicController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9E8A51FDD9F8C3E0167600084B5A0F3 /* Pods-YACOBasicController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicController_Example.modulemap"; sourceTree = "<group>"; };
+		E27FA2E80E1E5C9F005D6353C865562A /* YACOBasicViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOBasicViewController.h; path = YACOBasicController/Classes/BaseViewController/YACOBasicViewController.h; sourceTree = "<group>"; };
+		E4D4F3D62216F3FFE6C14EECDA6275BD /* YACOBasicNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOBasicNavigationController.h; path = YACOBasicController/Classes/BaseNavigationController/YACOBasicNavigationController.h; sourceTree = "<group>"; };
+		E5F2C2FA527BB63855E8ACF3D35A3B9C /* YACOBasicController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YACOBasicController.modulemap; sourceTree = "<group>"; };
+		ED0F537BD2229D989072F5D817D6D4A2 /* RTRootNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTRootNavigationController.m; path = YACOBasicController/Classes/RTRootNavigationController/RTRootNavigationController.m; sourceTree = "<group>"; };
+		F768AB3554DCF651E0768D2EA7A1C690 /* Pods-YACOBasicController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicController_Example-umbrella.h"; sourceTree = "<group>"; };
+		FE5DBF237AE88855A118BEEDE0CA3049 /* YACOBasicNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOBasicNavigationController.m; path = YACOBasicController/Classes/BaseNavigationController/YACOBasicNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E426F7C1382B448E72C5CD2A0F50B5B /* Frameworks */ = {
+		2144CC5EA5ABB01D3CDE37260B41FF33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				821A3833CDDF296B72BC45C083E81B16 /* Foundation.framework in Frameworks */,
-				6CB1F50101DD44F1011CE9362A21C798 /* MJRefresh.framework in Frameworks */,
-				7E96E621A6FD19E78D6120009151C9B1 /* WebViewJavascriptBridge.framework in Frameworks */,
-				E7EC86326D06D3EA8AE29520985D5D23 /* YACOBasicUIKit.framework in Frameworks */,
+				D5C6CD787644C50F57C25AD27032A7DD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EDE666615A361F0A53E54D016DDBCA3 /* Frameworks */ = {
+		5C0198ED8F157857B04E138ECBB8F8E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0394467FBD53FA463E54535128358805 /* Foundation.framework in Frameworks */,
-				D35683C97B762F84E5F9F5F9EFC29A31 /* UIKit.framework in Frameworks */,
-				F4243645999384E5C5A5D301F091789C /* WebKit.framework in Frameworks */,
+				35B305DCED9C934F9AE18CE63F3452B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FE6CCC2E14067B4DE5EC70C478334C3 /* Frameworks */ = {
+		A95DD81E0E49307A274D947DC4280504 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C62E1A1503832D7590E646F54F7787F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A951616FB3601076D01B4E640BD63770 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC4A74DC434C307E6978E50CB86D08BC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AFE59E28961E719D41451F086E3C98F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A507E7426311D7659BFA48A9260CEDA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B97A92F523B18D90286AF189CE70D078 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C386A2745D4B466935A4860C081882F4 /* AFNetworking.framework in Frameworks */,
-				821E419AF6D9774BBA940BCE790056C7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC8435A689BD825A0D545C2D74D0F932 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */,
-				A1C3DF8AED05A9B905AE114BF1CC7EBB /* Foundation.framework in Frameworks */,
-				C10DA5E233803AECE910CCF8E9839FB5 /* MobileCoreServices.framework in Frameworks */,
-				A56A9025CDC6ACF1A9F3F95BA288ADEE /* Security.framework in Frameworks */,
-				0EBF8C6B80B02F3959D2B863147FD4FB /* SystemConfiguration.framework in Frameworks */,
+				49EFDBE8EEF188FB03D1820AC050D396 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		010A026B21FDCD67768B6729C35BE76C /* Reachability */ = {
+		0A4998102C69D20FBA1515894FBD2715 /* Pods-YACOBasicController_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				89703D8A8C79F6D6216CC5D7A51D603A /* AFNetworkReachabilityManager.h */,
-				880DB38F16B3D01917A9D111C843F7EB /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
-			sourceTree = "<group>";
-		};
-		0AC43946DCAC7A72F4D24D935E7AC8A4 /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				28DDA4C933FF0EB63ACD92A7B7B031BB /* UIColor+YACOColor.h */,
-				DB783AB6CAE9F42968DE523E316E7D7A /* UIColor+YACOColor.m */,
-			);
-			name = UIColor;
-			sourceTree = "<group>";
-		};
-		0BFAD6C688F51059FBCEF9A3849C25E0 /* YACOBasicUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				4907283CF1ADB8A5F39EBF16905335F2 /* YACOBasicUIKit.h */,
-				734942099EB67999763E8D76A6CE414A /* Support Files */,
-				C6416FB11BF54A1341119F61F74B64E1 /* UIApplication */,
-				0AC43946DCAC7A72F4D24D935E7AC8A4 /* UIColor */,
-				4EAF7CB560E3AF087773A3FD660B055A /* UIDevice */,
-				BE02C937A7596992CFA714A370F2AC9D /* UIFont */,
-				E4351CDF604FF081E5F492810BE8E762 /* UILabel */,
-				AF0EC479B9F07905F0E310F447106633 /* UIView */,
-			);
-			name = YACOBasicUIKit;
-			path = YACOBasicUIKit;
-			sourceTree = "<group>";
-		};
-		1B4CEA4E083A275CA6151B56D6912D22 /* Serialization */ = {
-			isa = PBXGroup;
-			children = (
-				6F47DC7F2E4F16DC58B9F9A087E4143F /* AFURLRequestSerialization.h */,
-				DB41E65FA40245ED92B49B7C793AF03C /* AFURLRequestSerialization.m */,
-				7305C6F881DB38AEAFB0F20198B2B34D /* AFURLResponseSerialization.h */,
-				8AF39CA91A43C01C7D1F192BC96EE095 /* AFURLResponseSerialization.m */,
-			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
-		1BC506E4F1C42D13022AEADB68EBD918 /* MJRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				9A8A58393E005F3B37C8B01774D68F36 /* MJRefresh.h */,
-				BC0E497A03A9606894023CCA6D3DE799 /* MJRefreshAutoFooter.h */,
-				E16B94B8F31AACF061188BC2A5E71CFD /* MJRefreshAutoFooter.m */,
-				B35190A8E1F82FA040094AAECF6F48D8 /* MJRefreshAutoGifFooter.h */,
-				302B86D2C1D95FC31721B7B9BED06858 /* MJRefreshAutoGifFooter.m */,
-				102448F3C9C1632AB683B25989596122 /* MJRefreshAutoNormalFooter.h */,
-				985EA3B6267F4E1083983823F23DC100 /* MJRefreshAutoNormalFooter.m */,
-				890C17213098D7B85E7AB675038908F2 /* MJRefreshAutoStateFooter.h */,
-				559D4212AFC78A0BA5564B10C90A2E6D /* MJRefreshAutoStateFooter.m */,
-				B603B9FD00E0A765926F70E20B1544E2 /* MJRefreshBackFooter.h */,
-				7C2974A28CAF2D90E9316A7896498CB5 /* MJRefreshBackFooter.m */,
-				F6320CC7715A90C02C53A88BCC351368 /* MJRefreshBackGifFooter.h */,
-				C8EB8E010D62DB479952D6C14312016A /* MJRefreshBackGifFooter.m */,
-				6CD1AC805C84B9BC1C17B9BADEE9AF58 /* MJRefreshBackNormalFooter.h */,
-				C02C0ADB5577F2048EF223B293C2F76C /* MJRefreshBackNormalFooter.m */,
-				DC6D3E90E7BDCB11FF3BB07AC69B4128 /* MJRefreshBackStateFooter.h */,
-				01B1322F3F67AEEDEC8820965D2C6677 /* MJRefreshBackStateFooter.m */,
-				C7C2ED06382C7C9F11A13ECC0C19D15F /* MJRefreshComponent.h */,
-				33E071A5D5CE7298E7DE762CCCB9510F /* MJRefreshComponent.m */,
-				CDF1520CFDB822DE041D707A97FFA1AF /* MJRefreshConst.h */,
-				4B8B84148A7D0446708C1BC182EE01EB /* MJRefreshConst.m */,
-				8F7C6CAE68787236FC3EAD98C4DDEB63 /* MJRefreshFooter.h */,
-				49372744CC4B0D1D47E42415282CA808 /* MJRefreshFooter.m */,
-				1AAA7FC954C9542C7D6DD21B2036617D /* MJRefreshGifHeader.h */,
-				0782DD0FE71D3E07FBD8EA99B6EDBFA0 /* MJRefreshGifHeader.m */,
-				C8C2A06B2EFECA746D98E7A54D3DEE3A /* MJRefreshHeader.h */,
-				B6D7D84AA0B984FBC4B6D511D0A2FC13 /* MJRefreshHeader.m */,
-				9EFCF851D7E7825976C77517D9C8CB9C /* MJRefreshNormalHeader.h */,
-				A1AEC0B6B146A011872F4E11A8058D34 /* MJRefreshNormalHeader.m */,
-				95A2860BDEEF1E8903BBE77D039340F4 /* MJRefreshStateHeader.h */,
-				6BA18A99B74DE92EB6A5402456C5A76A /* MJRefreshStateHeader.m */,
-				4E7F4716A0681A224465657AEEC8F548 /* NSBundle+MJRefresh.h */,
-				1CE21AC48608517C035AA7C79872412A /* NSBundle+MJRefresh.m */,
-				DDD7FED9CCF44F6DB2D8505231003C0A /* UIScrollView+MJExtension.h */,
-				6009A4517DCD5CA161AA52030871BB6A /* UIScrollView+MJExtension.m */,
-				D9B69FFFBE3B341012C4BCECFEC0262E /* UIScrollView+MJRefresh.h */,
-				D1450CC75D2F8A0ED78DF3A70D08F09C /* UIScrollView+MJRefresh.m */,
-				9726C337A42E64107F18CC0D68E6B8D7 /* UIView+MJExtension.h */,
-				35700B142D5DF8B3285CBB834F387259 /* UIView+MJExtension.m */,
-				F182277A9FFE7A9FF41B674E05F85C2B /* Resources */,
-				8688A1E4FB25934AA3ECBAEED85D4CEF /* Support Files */,
-			);
-			name = MJRefresh;
-			path = MJRefresh;
-			sourceTree = "<group>";
-		};
-		1CBE2B751037C780039BD87543F22E14 /* Pods-YACOBasicController_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				77B7ECF9F2ACF3B077C5CF887FB56E55 /* Pods-YACOBasicController_Tests.modulemap */,
-				6E525887447CD4C1B454EDC369F2EC7A /* Pods-YACOBasicController_Tests-acknowledgements.markdown */,
-				C5CCA961F5944681A378EDCBC0B4133D /* Pods-YACOBasicController_Tests-acknowledgements.plist */,
-				00824073C228F4572CE545D009294C4F /* Pods-YACOBasicController_Tests-dummy.m */,
-				0A80A634E5976B4E9F9D2AB1B1E57C85 /* Pods-YACOBasicController_Tests-Info.plist */,
-				FD4E766CF6A67BB7430BA57457CB2A57 /* Pods-YACOBasicController_Tests-umbrella.h */,
-				F6BD8E44F3BCB5F5B34D9B73CE98C11F /* Pods-YACOBasicController_Tests.debug.xcconfig */,
-				2CDD082A36A06A19D604C9AC3194BB6C /* Pods-YACOBasicController_Tests.release.xcconfig */,
+				8C2E9433BE99A3DAA563E8933FFC1C4F /* Pods-YACOBasicController_Tests.modulemap */,
+				CFD377725DE8A27F25D5E9A731F92489 /* Pods-YACOBasicController_Tests-acknowledgements.markdown */,
+				C0B36308E727FBCD5922E6CF38136DAE /* Pods-YACOBasicController_Tests-acknowledgements.plist */,
+				431AE60B235C8C2B0673047022E27B32 /* Pods-YACOBasicController_Tests-dummy.m */,
+				B8D90F754D4C640DD2E4163D2D9EF832 /* Pods-YACOBasicController_Tests-Info.plist */,
+				CA53E4318B5D274A11D02F5A255405E1 /* Pods-YACOBasicController_Tests-umbrella.h */,
+				BF8F1D1F1019DF355C8890D0B531702E /* Pods-YACOBasicController_Tests.debug.xcconfig */,
+				A82AFD62009816126ECB9B66C09D973D /* Pods-YACOBasicController_Tests.release.xcconfig */,
 			);
 			name = "Pods-YACOBasicController_Tests";
 			path = "Target Support Files/Pods-YACOBasicController_Tests";
 			sourceTree = "<group>";
 		};
-		1D90FF5DA61E30B6DC3775D73A486B40 /* Security */ = {
+		0AAFC60F0241B1CBA86AFF6DDF8D9BB2 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				934497F1F36D606875205EA88D9123FB /* AFSecurityPolicy.h */,
-				ACBDBF96CCBBEC89C88C1BC8E00F5EEE /* AFSecurityPolicy.m */,
+				E27FA2E80E1E5C9F005D6353C865562A /* YACOBasicViewController.h */,
+				8470FCF9F227B84E406F88D973A9E1F9 /* YACOBasicViewController.m */,
 			);
-			name = Security;
+			name = BaseViewController;
 			sourceTree = "<group>";
 		};
-		3B6E8B2C92B97C98E91C53ABD8645656 /* YACOBasicController */ = {
+		57B6FB3CB6EBE9E3068FD82CF901A31E /* BaseNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				A046FDE7B163D02E57967D6FAD8E8518 /* BaseNavigationController */,
-				F923E7CB908D20C2DD966D1AA125A8C8 /* BaseTabBarController */,
-				CE4D07F1BCE86897BF9653A2D0838533 /* BaseViewController */,
-				A3B129F3D2FE02F54F0114F65C858ADE /* BaseWebViewController */,
-				CF4EB762754927BC785520EB789D99D0 /* Pod */,
-				61D07B93865778A8056BDA92ED98786A /* RTRootNavigationController */,
-				D47E6654FDDA9EDD86296719F0345440 /* Support Files */,
+				E4D4F3D62216F3FFE6C14EECDA6275BD /* YACOBasicNavigationController.h */,
+				FE5DBF237AE88855A118BEEDE0CA3049 /* YACOBasicNavigationController.m */,
+			);
+			name = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		65BDCD2FF03DCCCDBCB1B8D24809FB9E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A78718B3A1D9B6C6F209456F2171C9EA /* LICENSE */,
+				0DD4C82EE9386FC8F269A9D08EF4AD27 /* README.md */,
+				394B116FF41D54CD42B9344736AE6AF5 /* YACOBasicController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C0FF179A08A0E3E1AE24BCC37BEFB8C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F191BFC04694BFA6FA154CA62BCCE0D /* YACOBasicController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9EDAB236D85600965987A847B5A9059E /* RTRootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				39CB14A857E33889979139BF7875DFF6 /* RTRootNavigationController.h */,
+				ED0F537BD2229D989072F5D817D6D4A2 /* RTRootNavigationController.m */,
+				4A5599EFFF3F6A03EB2EC125B5B43EC1 /* UIViewController+RTRootNavigationController.h */,
+				5B4544CCF916B19B2FAD0E36EF187AEB /* UIViewController+RTRootNavigationController.m */,
+			);
+			name = RTRootNavigationController;
+			sourceTree = "<group>";
+		};
+		9F191BFC04694BFA6FA154CA62BCCE0D /* YACOBasicController */ = {
+			isa = PBXGroup;
+			children = (
+				57B6FB3CB6EBE9E3068FD82CF901A31E /* BaseNavigationController */,
+				E41035B4AA61E230269123E20EDB771F /* BaseTabBarController */,
+				0AAFC60F0241B1CBA86AFF6DDF8D9BB2 /* BaseViewController */,
+				65BDCD2FF03DCCCDBCB1B8D24809FB9E /* Pod */,
+				9EDAB236D85600965987A847B5A9059E /* RTRootNavigationController */,
+				E747E0A3626D2586A6A9EF56A861D743 /* Support Files */,
 			);
 			name = YACOBasicController;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		47A5C36CEFAF26D03D83CB81E8FE6A5E /* iOS */ = {
+		BADA0F488D0D4D71F37CDAD1C1D06262 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12D98DBFD5436D709197653FA2D1B92C /* CoreGraphics.framework */,
-				ED2EE005924652D97AED25894DDFB5CF /* Foundation.framework */,
-				1BB8A799C41045AEADC3896A3830C783 /* MobileCoreServices.framework */,
-				C464B07428D6A9B48BE7BB11C45DECC6 /* Security.framework */,
-				8FE1FA8507F29FCFF2E08546C2CEFF2A /* SystemConfiguration.framework */,
-				4801A661831E6F48160B19BBD65DF6BF /* UIKit.framework */,
-				80AACB4395C1CD9AF49F0DEA13F57602 /* WebKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4EAF7CB560E3AF087773A3FD660B055A /* UIDevice */ = {
-			isa = PBXGroup;
-			children = (
-				98FFDA669C8A8082CA551E39D7A0C814 /* UIDevice+YACODevice.h */,
-				36AA2D0FAE50D1C2AFB8E2E8AC682884 /* UIDevice+YACODevice.m */,
-			);
-			name = UIDevice;
-			sourceTree = "<group>";
-		};
-		51D306AC1C4753A4971BD4FFD95E90FE /* WebViewJavascriptBridge */ = {
-			isa = PBXGroup;
-			children = (
-				E25276419C4AEB7380ECA386437D5269 /* WebViewJavascriptBridge.h */,
-				7F88BF4B26AD968525B8CCF13F94DD10 /* WebViewJavascriptBridge.m */,
-				BBB2D9F67FF747BB241A67847B757B0D /* WebViewJavascriptBridge_JS.h */,
-				9A59C0D37A4360F696EF500276F2CA61 /* WebViewJavascriptBridge_JS.m */,
-				7BC7CEDE27FAC979BC4157A3F68D194C /* WebViewJavascriptBridgeBase.h */,
-				B242859B8995C3734E22359633ED9523 /* WebViewJavascriptBridgeBase.m */,
-				60F1C82572406BB96046873ECF083256 /* WKWebViewJavascriptBridge.h */,
-				F9EF0BC00A53880C57203C1BD2FBC003 /* WKWebViewJavascriptBridge.m */,
-				DBFF919937F31CEC98E43A512A74929C /* Support Files */,
-			);
-			name = WebViewJavascriptBridge;
-			path = WebViewJavascriptBridge;
-			sourceTree = "<group>";
-		};
-		566D0FDFF91216983677EED835190658 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				B3EA74150067514C6CAAEB10911B3A58 /* AFNetworking.h */,
-				937C0F75DC8E64438C676D7228444593 /* NSURLSession */,
-				010A026B21FDCD67768B6729C35BE76C /* Reachability */,
-				1D90FF5DA61E30B6DC3775D73A486B40 /* Security */,
-				1B4CEA4E083A275CA6151B56D6912D22 /* Serialization */,
-				F783FE9FA37F1BFE88414F5058136002 /* Support Files */,
-				DF878C58DFD32BCF97C687A8929BC11A /* UIKit */,
-			);
-			name = AFNetworking;
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		61D07B93865778A8056BDA92ED98786A /* RTRootNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				749DE24140D435E241067A7E63F70FA5 /* RTRootNavigationController.h */,
-				1811619879A3637A100DFB1B30C4066C /* RTRootNavigationController.m */,
-				06715A95321A3FD7CE345DD2FA9FC08F /* UIViewController+RTRootNavigationController.h */,
-				E803077E1EFC90ADA42474026F5C1241 /* UIViewController+RTRootNavigationController.m */,
-			);
-			name = RTRootNavigationController;
-			sourceTree = "<group>";
-		};
-		734942099EB67999763E8D76A6CE414A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				02D2FD2EAADE567336A01143A29A0914 /* YACOBasicUIKit.modulemap */,
-				88C157041C444077BAF1ED8BF0515F0E /* YACOBasicUIKit.xcconfig */,
-				D3FCFE44848BCA9274E49E938CDA1BF8 /* YACOBasicUIKit-dummy.m */,
-				87CAA4972A6B71322C5E5205157CF560 /* YACOBasicUIKit-Info.plist */,
-				6B99CCB106EFF49A71C9A8D0E9A22DAF /* YACOBasicUIKit-prefix.pch */,
-				4B67E04C807B042016953505787A9E35 /* YACOBasicUIKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YACOBasicUIKit";
-			sourceTree = "<group>";
-		};
-		78D8F5397F7FA5FA2AC4EC0AEEFBC382 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				566D0FDFF91216983677EED835190658 /* AFNetworking */,
-				1BC506E4F1C42D13022AEADB68EBD918 /* MJRefresh */,
-				51D306AC1C4753A4971BD4FFD95E90FE /* WebViewJavascriptBridge */,
-				0BFAD6C688F51059FBCEF9A3849C25E0 /* YACOBasicUIKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8688A1E4FB25934AA3ECBAEED85D4CEF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ED84BCF21D5E0517BDE1EB66B5299809 /* MJRefresh.modulemap */,
-				9078E086FF83BD923301A0A3BE466E8D /* MJRefresh.xcconfig */,
-				F41A530573F04A06C9B00ED7F4413B7A /* MJRefresh-dummy.m */,
-				59695E4790411D8F8083F16BB2F9288F /* MJRefresh-Info.plist */,
-				A837E2287F1A913762731FF27F74C357 /* MJRefresh-prefix.pch */,
-				076E11575B6912406557B9FA04663591 /* MJRefresh-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MJRefresh";
-			sourceTree = "<group>";
-		};
-		937C0F75DC8E64438C676D7228444593 /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				9367D7C1B2A832306A5F2E596542E46F /* AFCompatibilityMacros.h */,
-				23D71078A825B9377105C5689D4620AF /* AFHTTPSessionManager.h */,
-				36AB5450AD9D20DE4673E0D0561090D0 /* AFHTTPSessionManager.m */,
-				1244A00EEB4283A921BFC4F0295DA764 /* AFURLSessionManager.h */,
-				A5873C8BAF5CB9478941E3E3D23DCC11 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		9ED232C89C6AAE8B34451ADFEA212657 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C3BEFBBB185CFD17EE78D4BAB3442AEE /* AFNetworking.framework */,
-				077BE7052B26FC535EE0C5CED9790122 /* MJRefresh.framework */,
-				C7E75D76C0123C7126884D70D4589EDF /* Pods_YACOBasicController_Example.framework */,
-				E6D67DCA4B9B4D74A003E730F8716F83 /* Pods_YACOBasicController_Tests.framework */,
-				749F2992D3F20920D2E428342B20FB46 /* WebViewJavascriptBridge.framework */,
-				8E9658756BF42BD41503309B9DA462BD /* YACOBasicController.framework */,
-				19C28779A6248772738E980F16E43722 /* YACOBasicUIKit.framework */,
+				3B343ECB02D124B5D9C1819E3803E41F /* Pods_YACOBasicController_Example.framework */,
+				1133AFBEAE854EC7180CAD8430DF6669 /* Pods_YACOBasicController_Tests.framework */,
+				82B8A49B0BA1EC7F8F2A333EB9BF4EDA /* YACOBasicController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A046FDE7B163D02E57967D6FAD8E8518 /* BaseNavigationController */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				64541E5CA93A5C4750E4D32AD7F7598C /* YACOBasicNavigationController.h */,
-				9B4D8E79F4D007A0351A5425D33B1BBF /* YACOBasicNavigationController.m */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = BaseNavigationController;
-			sourceTree = "<group>";
-		};
-		A3B129F3D2FE02F54F0114F65C858ADE /* BaseWebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				952E296A72CB047D3498BE340708925F /* YACOBaseWebViewProtocol.h */,
-				2A523D034228AD3A6BA5C3236A2070DD /* YACOBasicWKWebController.h */,
-				0BF9F1EE258C46268002C9309ECFB8FA /* YACOBasicWKWebController.m */,
-				4E2F60D74A7442FE435413560D87E0AA /* YACOWebProgressView.h */,
-				2B7F31A096CEA166D636BB4B77AEE09F /* YACOWebProgressView.m */,
-			);
-			name = BaseWebViewController;
-			sourceTree = "<group>";
-		};
-		AF0EC479B9F07905F0E310F447106633 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				59778D9CFF0E6DB210333717F3AA0AC6 /* UIView+YACOFrame.h */,
-				1DAAB4962DFE82201B813783EF34B7D7 /* UIView+YACOFrame.m */,
-			);
-			name = UIView;
-			sourceTree = "<group>";
-		};
-		BE02C937A7596992CFA714A370F2AC9D /* UIFont */ = {
-			isa = PBXGroup;
-			children = (
-				C3C10DFA98CF367E3B7803EFD151D83C /* UIFont+YACOFont.h */,
-				145474CABCC994EF9544AD43FE532613 /* UIFont+YACOFont.m */,
-			);
-			name = UIFont;
-			sourceTree = "<group>";
-		};
-		BF9518EC32E0B9DA6CF8B890913D7B42 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CD1CDA5E970F79122B4B4214EC6E0541 /* AFNetworking.framework */,
-				04951EF7FD1510575FBA578E29D40164 /* MJRefresh.framework */,
-				0A1BE1358371B727033A043C22503FF8 /* WebViewJavascriptBridge.framework */,
-				E5C351566D41F499AF6BD4473A9106D0 /* YACOBasicUIKit.framework */,
-				47A5C36CEFAF26D03D83CB81E8FE6A5E /* iOS */,
-			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C5987107148507EA7B4B1D85FE7291C8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E98FBD38B0EED974F9F1ECB9F6B78122 /* Pods-YACOBasicController_Example */,
-				1CBE2B751037C780039BD87543F22E14 /* Pods-YACOBasicController_Tests */,
+				ED6E5B306211A06B5CEB16970E7AFCA1 /* Pods-YACOBasicController_Example */,
+				0A4998102C69D20FBA1515894FBD2715 /* Pods-YACOBasicController_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C6416FB11BF54A1341119F61F74B64E1 /* UIApplication */ = {
-			isa = PBXGroup;
-			children = (
-				0D2FA0B17DF11CF2079D54CCE09BBEA8 /* UIApplication+YACOApplication.h */,
-				73776CD0C9572F1F1C848999A78BAC44 /* UIApplication+YACOApplication.m */,
-			);
-			name = UIApplication;
-			sourceTree = "<group>";
-		};
-		CE4D07F1BCE86897BF9653A2D0838533 /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				843D63770B33CB22819C09C61825BB22 /* YACOBasicViewController.h */,
-				0D49004B11EDB0893EF67E3F36598951 /* YACOBasicViewController.m */,
-			);
-			name = BaseViewController;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E6083B0112E93896B33CE62E293F8E3C /* Development Pods */,
-				BF9518EC32E0B9DA6CF8B890913D7B42 /* Frameworks */,
-				78D8F5397F7FA5FA2AC4EC0AEEFBC382 /* Pods */,
-				9ED232C89C6AAE8B34451ADFEA212657 /* Products */,
+				8C0FF179A08A0E3E1AE24BCC37BEFB8C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BADA0F488D0D4D71F37CDAD1C1D06262 /* Products */,
 				C5987107148507EA7B4B1D85FE7291C8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CF4EB762754927BC785520EB789D99D0 /* Pod */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2D9A445A9FC083A2A8CE1DDE926C5085 /* LICENSE */,
-				C044F40E01C3656F58D2AF720FF5D6AD /* README.md */,
-				F55F8FF3F1BF0C9B0435965239A11153 /* YACOBasicController.podspec */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D47E6654FDDA9EDD86296719F0345440 /* Support Files */ = {
+		E41035B4AA61E230269123E20EDB771F /* BaseTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				EFDFA2AC6E5B3C5D86AC363D3A3E1E29 /* YACOBasicController.modulemap */,
-				64E49B34C0346F5F72259E8F4AD95E32 /* YACOBasicController.xcconfig */,
-				8F3F2EF3085B99EE7E68DFC14AA0AEC2 /* YACOBasicController-dummy.m */,
-				F4805137B12E49AA5F30C30BC0D6317F /* YACOBasicController-Info.plist */,
-				51D0C8267A5FD9895A83317775FBD592 /* YACOBasicController-prefix.pch */,
-				BADBE5C4447D00658AAA5114B4933885 /* YACOBasicController-umbrella.h */,
+				2525DB88F213D0F47E31874AA6BF0FCD /* YACOTabBarBasicController.h */,
+				B59EB4B6AF20A8A10FA4F0B046E15C1B /* YACOTabBarBasicController.m */,
+			);
+			name = BaseTabBarController;
+			sourceTree = "<group>";
+		};
+		E747E0A3626D2586A6A9EF56A861D743 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F2C2FA527BB63855E8ACF3D35A3B9C /* YACOBasicController.modulemap */,
+				8FBF3832532FB52AAE7670B251F98D46 /* YACOBasicController-dummy.m */,
+				7F2C495DD1B42D88BD012801C71B1DF4 /* YACOBasicController-Info.plist */,
+				B8A05600651F75E16B4991830FE7B5D7 /* YACOBasicController-prefix.pch */,
+				CB255D50BCDA86CD5D16610EC4DDA94F /* YACOBasicController-umbrella.h */,
+				120A671E0365933CB3A004799F6EF8D9 /* YACOBasicController.debug.xcconfig */,
+				08FE26677C8E150220C5ADE02A5B054A /* YACOBasicController.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YACOBasicController";
 			sourceTree = "<group>";
 		};
-		DBFF919937F31CEC98E43A512A74929C /* Support Files */ = {
+		ED6E5B306211A06B5CEB16970E7AFCA1 /* Pods-YACOBasicController_Example */ = {
 			isa = PBXGroup;
 			children = (
-				6E4181BEBAE54D1A3ADD71F537307B15 /* WebViewJavascriptBridge.modulemap */,
-				D21B7B51E1BF5DEBDC380B1D9F9D1ED5 /* WebViewJavascriptBridge.xcconfig */,
-				D0C5B5CDE90C544342D28B8F0EE727D7 /* WebViewJavascriptBridge-dummy.m */,
-				9D4373B2EB3E3611B5E9448C9691A7A2 /* WebViewJavascriptBridge-Info.plist */,
-				ED27543422B7FC4BE943EFBCE3C6C320 /* WebViewJavascriptBridge-prefix.pch */,
-				87AB9915AC11AC9081730BCC5E2ABB91 /* WebViewJavascriptBridge-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WebViewJavascriptBridge";
-			sourceTree = "<group>";
-		};
-		DF878C58DFD32BCF97C687A8929BC11A /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				8B9812DDDB1C9BC107D91BCC505CCCD7 /* AFAutoPurgingImageCache.h */,
-				5BE3DE57CE99BE6CD132A0FE7032FF79 /* AFAutoPurgingImageCache.m */,
-				150963E9A5A0132D60640ECDED86CDC8 /* AFImageDownloader.h */,
-				7C9BBDA12BC9104AB9515C18044C4011 /* AFImageDownloader.m */,
-				B1945C353BE0AA69F4568641A41E6062 /* AFNetworkActivityIndicatorManager.h */,
-				44EE02F0DF6543238572035C57D3DFC7 /* AFNetworkActivityIndicatorManager.m */,
-				931CF539FEFDE9091A734A239CF688EA /* UIActivityIndicatorView+AFNetworking.h */,
-				8EB1A3C64D57FC9E2BC9BF93A2FCB9D2 /* UIActivityIndicatorView+AFNetworking.m */,
-				F76B8AB10560A74765E12ECC30541AD7 /* UIButton+AFNetworking.h */,
-				0AAC759C94D670C7A0101628E2B140D5 /* UIButton+AFNetworking.m */,
-				88EFB507B57B4C8B3617DDE3BFC81D93 /* UIImage+AFNetworking.h */,
-				3BBFB666B13759FEF90F9CB7BA47C13C /* UIImageView+AFNetworking.h */,
-				7FAFA78E9E7AD6F47871B926BFFEE841 /* UIImageView+AFNetworking.m */,
-				A63978EFAFADE6D927398C0A68E2AFE0 /* UIKit+AFNetworking.h */,
-				4E33422029CED46A8EFC73844C9D1F77 /* UIProgressView+AFNetworking.h */,
-				57BAA6F2AFB5E66BF0E351FF6C23580E /* UIProgressView+AFNetworking.m */,
-				2C388186FAB2FED6EDE5C71BA08A501D /* UIRefreshControl+AFNetworking.h */,
-				4CBECA9FA168C039C58C3E5E122BE95A /* UIRefreshControl+AFNetworking.m */,
-				C50965B45BB87D77EABAF87D0625D66B /* UIWebView+AFNetworking.h */,
-				5F1923E505C9268C32EA0804DFF8A17E /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		E4351CDF604FF081E5F492810BE8E762 /* UILabel */ = {
-			isa = PBXGroup;
-			children = (
-				1E4AB3ED1EEFAB8C5C0E609BB522B2E6 /* UILabel+YACOLabel.h */,
-				70204C7145C425DF341AE754245DE13E /* UILabel+YACOLabel.m */,
-				50253F4CDB512B91FDE25A7A73CD29AA /* YACOAutoScrollLabel.h */,
-				21B86538056509EC7DBB0110CFE925DD /* YACOAutoScrollLabel.m */,
-			);
-			name = UILabel;
-			sourceTree = "<group>";
-		};
-		E6083B0112E93896B33CE62E293F8E3C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B6E8B2C92B97C98E91C53ABD8645656 /* YACOBasicController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E98FBD38B0EED974F9F1ECB9F6B78122 /* Pods-YACOBasicController_Example */ = {
-			isa = PBXGroup;
-			children = (
-				FF8B995B22715B68B98FE97109394A11 /* Pods-YACOBasicController_Example.modulemap */,
-				96AD76668B5EB8EFBA8432A3E96B9268 /* Pods-YACOBasicController_Example-acknowledgements.markdown */,
-				6B83603009B35ADED951E246CCC1226C /* Pods-YACOBasicController_Example-acknowledgements.plist */,
-				3011712CA70EF668A2DB83A8794DEE36 /* Pods-YACOBasicController_Example-dummy.m */,
-				F90611BF52BCC4379FA604DD41D93A75 /* Pods-YACOBasicController_Example-frameworks.sh */,
-				B7E0BC134991EC774E227B5CF963BF26 /* Pods-YACOBasicController_Example-Info.plist */,
-				5AAA57A5B0C01E05828EEE7F9B3457F9 /* Pods-YACOBasicController_Example-umbrella.h */,
-				0F9E0D8E7F1F4EE7C565F8349B2C8B28 /* Pods-YACOBasicController_Example.debug.xcconfig */,
-				B21A38907EB107A0D8A9E1D2205348DC /* Pods-YACOBasicController_Example.release.xcconfig */,
+				D9E8A51FDD9F8C3E0167600084B5A0F3 /* Pods-YACOBasicController_Example.modulemap */,
+				A7C352DCDE5028E64AA3B72977715311 /* Pods-YACOBasicController_Example-acknowledgements.markdown */,
+				48FF858B06F01D9C861C8DB3ED62D281 /* Pods-YACOBasicController_Example-acknowledgements.plist */,
+				B244D684BB6D0608A8EB74EE0A6416C5 /* Pods-YACOBasicController_Example-dummy.m */,
+				13A39B70993B90FE3008C357D98FFC6C /* Pods-YACOBasicController_Example-frameworks.sh */,
+				6193BAD465E6825CADB52ECCAF490948 /* Pods-YACOBasicController_Example-Info.plist */,
+				F768AB3554DCF651E0768D2EA7A1C690 /* Pods-YACOBasicController_Example-umbrella.h */,
+				BCDB665B1BE24FC43BED183CFB88EB65 /* Pods-YACOBasicController_Example.debug.xcconfig */,
+				7F3E9190B3C0DED9A67FCB5EECE750F5 /* Pods-YACOBasicController_Example.release.xcconfig */,
 			);
 			name = "Pods-YACOBasicController_Example";
 			path = "Target Support Files/Pods-YACOBasicController_Example";
 			sourceTree = "<group>";
 		};
-		F182277A9FFE7A9FF41B674E05F85C2B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3B993039087C3D954CE03A79AB7A973B /* MJRefresh.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		F783FE9FA37F1BFE88414F5058136002 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9CE1D5E3E6AC4A9F835AE8DD92C1BC5E /* AFNetworking.modulemap */,
-				A9C8CFE28E26D14C5BA380FDC074D713 /* AFNetworking.xcconfig */,
-				343D8E32884BFFED7C6A2B8686DBF98A /* AFNetworking-dummy.m */,
-				C9EBA2310265057A7758C516DB488CEC /* AFNetworking-Info.plist */,
-				511E1B793E8C029AE026EF775D78BED2 /* AFNetworking-prefix.pch */,
-				735C4A49F20D94A24B7A2DD1A1F1E97E /* AFNetworking-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		F923E7CB908D20C2DD966D1AA125A8C8 /* BaseTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				3E979EFAA81EE98A0755028FCBDE2B2E /* YACOTabBarBasicController.h */,
-				35FAD9276B80CDE2121A76D7A9AD9CEB /* YACOTabBarBasicController.m */,
-			);
-			name = BaseTabBarController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		15DA05CAC8E2E172B0F872763AE68AAB /* Headers */ = {
+		299F06534B29B870178FC7BB296205F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33958A7B4C5DA8FBC4397FF0C07B0ADE /* UIApplication+YACOApplication.h in Headers */,
-				A972B5D3391DDE85EDDDCE95C1F2F7F7 /* UIColor+YACOColor.h in Headers */,
-				C2DBEF8A34E0FF1947531C316418C67A /* UIDevice+YACODevice.h in Headers */,
-				8F0F7BB55DCDBD37D2E839C98F3A8799 /* UIFont+YACOFont.h in Headers */,
-				F7CD3A164A8C4F0B70AA3158A58B5972 /* UILabel+YACOLabel.h in Headers */,
-				B0C3D9DB8C5BC72FBBAD1331C2C650F3 /* UIView+YACOFrame.h in Headers */,
-				7511102B91C0126E8D8DF416E2EC44C1 /* YACOAutoScrollLabel.h in Headers */,
-				8A78D840AB232DBC090FA617C790787A /* YACOBasicUIKit-umbrella.h in Headers */,
-				B6D12914BCBDDB1AC0E583311314FF66 /* YACOBasicUIKit.h in Headers */,
+				EFFCAAA672AF52D3CBC1C64719A0629B /* Pods-YACOBasicController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6744D120B062A2B4CC1B2C8CAF94FD58 /* Headers */ = {
+		9E9056224F73D164805C42181B3243D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853F5741DE00DD29690FCF5CAAEA20BC /* Pods-YACOBasicController_Example-umbrella.h in Headers */,
+				F18362940A92261AD6D3C41C543E9B46 /* RTRootNavigationController.h in Headers */,
+				13948462AEC9F70E1152DF9E05E5DDB6 /* UIViewController+RTRootNavigationController.h in Headers */,
+				4526DC72F43268300282FDE8EDFECA6B /* YACOBasicController-umbrella.h in Headers */,
+				D90305FCEA02E79A58C1ECFB1A66B40B /* YACOBasicNavigationController.h in Headers */,
+				C060D4E48EA5C75CDF9E33D7C71350C2 /* YACOBasicViewController.h in Headers */,
+				CF4B9DCF12261B3F80657D8183EB2F91 /* YACOTabBarBasicController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B481F7D9424640B11DFD07C65E61B86 /* Headers */ = {
+		BEF92574846A3879D9733C91DE016428 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62E654F7180B592841BD378B6A087A1C /* AFAutoPurgingImageCache.h in Headers */,
-				076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */,
-				9A5CA25A63AF0B4164AE2959E548015B /* AFHTTPSessionManager.h in Headers */,
-				077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */,
-				E6937F73D5B04BE67153D3C3AACD8922 /* AFNetworkActivityIndicatorManager.h in Headers */,
-				8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */,
-				9B4D9E80D31B0B9EBE56273D5298CBE7 /* AFNetworking.h in Headers */,
-				B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */,
-				891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */,
-				F06A1D57921458C44558DDC1E36F3776 /* AFURLRequestSerialization.h in Headers */,
-				19DE2D2B6053CF645CE5C574A5B1C616 /* AFURLResponseSerialization.h in Headers */,
-				D291925F0CAEBC063B12582E0CAA4132 /* AFURLSessionManager.h in Headers */,
-				1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				E7805B558ACD291DAE469478DA1D29E2 /* UIButton+AFNetworking.h in Headers */,
-				33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */,
-				567B4BF4309674A8523DF1E20D4671F2 /* UIImageView+AFNetworking.h in Headers */,
-				63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */,
-				B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */,
-				FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */,
-				7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7D45E41CC558295FDD579BC166426AC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8171A2F317DB5E85FEEB949907D4F61 /* Pods-YACOBasicController_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC001F486ACD977EC98431CF624D7012 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A18023D2E295B05336A9890B1F5E6CA3 /* WebViewJavascriptBridge-umbrella.h in Headers */,
-				379F25EF90C169D1E491BF9D63F104CB /* WebViewJavascriptBridge.h in Headers */,
-				3E071476E1AE29A3ABA985D78923119E /* WebViewJavascriptBridge_JS.h in Headers */,
-				8F645E0DAEE2139B0156EBA49C1EB155 /* WebViewJavascriptBridgeBase.h in Headers */,
-				33271B3ED35531B6C91C2B0DD68674D3 /* WKWebViewJavascriptBridge.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6224F82A429FCA64103ED46C3A8E6D0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73356EEAEBBB5B13DC5B843B905276F3 /* RTRootNavigationController.h in Headers */,
-				6E1B8E35B480271CE2BAF56F798218A4 /* UIViewController+RTRootNavigationController.h in Headers */,
-				1F5F1422D34B553E5D33007A14A042ED /* YACOBaseWebViewProtocol.h in Headers */,
-				5189A16ED9C11DD27EB424CEB63A4CD2 /* YACOBasicController-umbrella.h in Headers */,
-				50A7D4B1D992004B8BB23EBDD69C1FEA /* YACOBasicNavigationController.h in Headers */,
-				FFADB3C2E6DA151E6C1FFFA92BFF70D5 /* YACOBasicViewController.h in Headers */,
-				E1E85E988750CBDFA132FAF11C206520 /* YACOBasicWKWebController.h in Headers */,
-				03E9978EDF154FB0DA2E6C73541ACCA1 /* YACOTabBarBasicController.h in Headers */,
-				DB151EA07EC321904884C7972B95C29A /* YACOWebProgressView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9A85724D0ECA6CD24DFAF63DD917D06 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B20292439308665CB10E89D72D74BBB1 /* MJRefresh-umbrella.h in Headers */,
-				9FB3E4C11A4AC3328DB00AFB3B8053B2 /* MJRefresh.h in Headers */,
-				BD8D03BB3C22551D795835DEE60978CA /* MJRefreshAutoFooter.h in Headers */,
-				09363A6021AE2BF890864611810E3AC5 /* MJRefreshAutoGifFooter.h in Headers */,
-				BE43DEACA009E9432DC795654B80F43B /* MJRefreshAutoNormalFooter.h in Headers */,
-				8CD8E650D891C019637BEC903D4DFFF9 /* MJRefreshAutoStateFooter.h in Headers */,
-				439E0707D283A1E28FF1C183BD0B227A /* MJRefreshBackFooter.h in Headers */,
-				5DFA85066C51844C81A22FC469C2EE05 /* MJRefreshBackGifFooter.h in Headers */,
-				9E545607603CDE4089F91C59A377C140 /* MJRefreshBackNormalFooter.h in Headers */,
-				43CEDEE5BFB83866D408FE06917FC3C0 /* MJRefreshBackStateFooter.h in Headers */,
-				386E43C990BABD2BE2718B21EA01A98F /* MJRefreshComponent.h in Headers */,
-				16BDE28F0178B7A54B17F6B9B01A15DA /* MJRefreshConst.h in Headers */,
-				B415F46A5638F090B1862FA2F6E158A9 /* MJRefreshFooter.h in Headers */,
-				2DE10588BB794C01C31422146C2E5442 /* MJRefreshGifHeader.h in Headers */,
-				57DC52073043C7FCB7B075B784CF6E1A /* MJRefreshHeader.h in Headers */,
-				AFECA97AA0090421DFFC21C5BF6E8F75 /* MJRefreshNormalHeader.h in Headers */,
-				4255E5E881C51CB75A47EEFE04B270CC /* MJRefreshStateHeader.h in Headers */,
-				C11CD3314246419329D65ECC498663D2 /* NSBundle+MJRefresh.h in Headers */,
-				C73699EB31859B125378778082A62E60 /* UIScrollView+MJExtension.h in Headers */,
-				3F6AAB97851AFE28F1929415DD4BB718 /* UIScrollView+MJRefresh.h in Headers */,
-				73FD93FACA51C4671B26C7A0B24ED1D5 /* UIView+MJExtension.h in Headers */,
+				9337BD8BDFA00F24993C2D104E46A078 /* Pods-YACOBasicController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32CCF78F735E1902D02BA56199191C1B /* Pods-YACOBasicController_Example */ = {
+		91A542BB44F7ACAB595F022ED20B0925 /* Pods-YACOBasicController_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D50E0C3B2E8C1ACEFD523F3229F873E2 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicController_Example" */;
+			buildConfigurationList = F08393A1429998175C46825B68554E40 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicController_Tests" */;
 			buildPhases = (
-				6744D120B062A2B4CC1B2C8CAF94FD58 /* Headers */,
-				1CE5A56D3BC4D0DE546F5321370B4503 /* Sources */,
-				9FE6CCC2E14067B4DE5EC70C478334C3 /* Frameworks */,
-				3631397765338B8721AE980179F9432A /* Resources */,
+				299F06534B29B870178FC7BB296205F8 /* Headers */,
+				CCD25A3B5822FB1B0DC7C23124983418 /* Sources */,
+				A95DD81E0E49307A274D947DC4280504 /* Frameworks */,
+				5F47D499E021AC5DF12A487B1AFDB4F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6AA48C6014BFD08F7EE2F6342B4DE668 /* PBXTargetDependency */,
-				65EC110B962C9F894F76EFD42207F387 /* PBXTargetDependency */,
-				417B9E33848B786DCC1C9F34D2EC3881 /* PBXTargetDependency */,
-				AEE2E6BF1B551D080984DA3FCA943496 /* PBXTargetDependency */,
-				6C02C197AE640D0B6DAEB7841E4BE06B /* PBXTargetDependency */,
-			);
-			name = "Pods-YACOBasicController_Example";
-			productName = "Pods-YACOBasicController_Example";
-			productReference = C7E75D76C0123C7126884D70D4589EDF /* Pods_YACOBasicController_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		57757263AFE6E8EE11BEEBC4E9BE99FA /* YACOBasicUIKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75E9EC7604DFFDD241DF21737A2FA9FB /* Build configuration list for PBXNativeTarget "YACOBasicUIKit" */;
-			buildPhases = (
-				15DA05CAC8E2E172B0F872763AE68AAB /* Headers */,
-				7244C79E4D291E6F28920D6C15C4FC4C /* Sources */,
-				B97A92F523B18D90286AF189CE70D078 /* Frameworks */,
-				018CDC3F0BE8B58AD9AD345A0F9329FF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD8850617A9D5CF2E847A05B18304778 /* PBXTargetDependency */,
-			);
-			name = YACOBasicUIKit;
-			productName = YACOBasicUIKit;
-			productReference = 19C28779A6248772738E980F16E43722 /* YACOBasicUIKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6C76AC070DB65255C67667F7876EE238 /* MJRefresh */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B15979FE5D7353EBA9898381E61E4AD6 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
-			buildPhases = (
-				C9A85724D0ECA6CD24DFAF63DD917D06 /* Headers */,
-				A4F3E2D14CC8FEDCB0F16135664D35A7 /* Sources */,
-				AFE59E28961E719D41451F086E3C98F1 /* Frameworks */,
-				98DA792F2922F46B99D123915FBC6997 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MJRefresh;
-			productName = MJRefresh;
-			productReference = 077BE7052B26FC535EE0C5CED9790122 /* MJRefresh.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BD3C90B60167544AFB6E5720315C65E9 /* Pods-YACOBasicController_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A89F088881DC2C4ACD482C87860F9A12 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicController_Tests" */;
-			buildPhases = (
-				B7D45E41CC558295FDD579BC166426AC /* Headers */,
-				E297F3630DB33B293C6E7B8804034EE9 /* Sources */,
-				A951616FB3601076D01B4E640BD63770 /* Frameworks */,
-				2A62873A2F56902EBFA0CFB4210C3FB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B3501CB0705328F193A4D99582CD6719 /* PBXTargetDependency */,
+				D05C18B15F32864B2236BB1C1DCCCE20 /* PBXTargetDependency */,
 			);
 			name = "Pods-YACOBasicController_Tests";
 			productName = "Pods-YACOBasicController_Tests";
-			productReference = E6D67DCA4B9B4D74A003E730F8716F83 /* Pods_YACOBasicController_Tests.framework */;
+			productReference = 1133AFBEAE854EC7180CAD8430DF6669 /* Pods_YACOBasicController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */ = {
+		C24AA12E5962ED2955FE3A8A86836575 /* Pods-YACOBasicController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildConfigurationList = FD4C06F6448C996DCB890E662ABF7337 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicController_Example" */;
 			buildPhases = (
-				8B481F7D9424640B11DFD07C65E61B86 /* Headers */,
-				D6735FC939CD439E865C33F1416D8D12 /* Sources */,
-				FC8435A689BD825A0D545C2D74D0F932 /* Frameworks */,
-				FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */,
+				BEF92574846A3879D9733C91DE016428 /* Headers */,
+				EBDE82863954FEE6E50D74221E103F09 /* Sources */,
+				2144CC5EA5ABB01D3CDE37260B41FF33 /* Frameworks */,
+				54C40BC4278476CB59966F20D92725F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				72F0B29E4302A524432A1F21F062CDD1 /* PBXTargetDependency */,
 			);
-			name = AFNetworking;
-			productName = AFNetworking;
-			productReference = C3BEFBBB185CFD17EE78D4BAB3442AEE /* AFNetworking.framework */;
+			name = "Pods-YACOBasicController_Example";
+			productName = "Pods-YACOBasicController_Example";
+			productReference = 3B343ECB02D124B5D9C1819E3803E41F /* Pods_YACOBasicController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5158A1E8D4DA50C5A5BF11C548D6A0F /* YACOBasicController */ = {
+		C6ACE756A5CDC1CC043168036B6DEC83 /* YACOBasicController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09A65A88E6ABD4334A8289410CFBB563 /* Build configuration list for PBXNativeTarget "YACOBasicController" */;
+			buildConfigurationList = 53C4872A87A56AF9C87BA632401D14ED /* Build configuration list for PBXNativeTarget "YACOBasicController" */;
 			buildPhases = (
-				C6224F82A429FCA64103ED46C3A8E6D0 /* Headers */,
-				DD21DAB4C56F560429EEDEBA75D761BB /* Sources */,
-				0E426F7C1382B448E72C5CD2A0F50B5B /* Frameworks */,
-				48EED2698BC29D481C30FCD9352DFF58 /* Resources */,
+				9E9056224F73D164805C42181B3243D9 /* Headers */,
+				E0FDF3B37B11BA0EA0F9243611436AA1 /* Sources */,
+				5C0198ED8F157857B04E138ECBB8F8E9 /* Frameworks */,
+				6795DFE67821676B7E85426C4F32EB1A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3038F740F5C0D39FCDD28BB01FB7E359 /* PBXTargetDependency */,
-				145D4F67FE58F1020DD7E87816843925 /* PBXTargetDependency */,
-				91F9DBF422AFBCAD95A2CB59392D5090 /* PBXTargetDependency */,
 			);
 			name = YACOBasicController;
 			productName = YACOBasicController;
-			productReference = 8E9658756BF42BD41503309B9DA462BD /* YACOBasicController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DE9FEA7E6E710D3EE45F0DF320596B33 /* WebViewJavascriptBridge */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6AC9E94FD9FA0004179F6F67C59811AA /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */;
-			buildPhases = (
-				BC001F486ACD977EC98431CF624D7012 /* Headers */,
-				B398331DF834465D5C32ABD9611F2E01 /* Sources */,
-				1EDE666615A361F0A53E54D016DDBCA3 /* Frameworks */,
-				6D77C6B02393BC25628C0A4556594938 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WebViewJavascriptBridge;
-			productName = WebViewJavascriptBridge;
-			productReference = 749F2992D3F20920D2E428342B20FB46 /* WebViewJavascriptBridge.framework */;
+			productReference = 82B8A49B0BA1EC7F8F2A333EB9BF4EDA /* YACOBasicController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1229,77 +379,45 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9ED232C89C6AAE8B34451ADFEA212657 /* Products */;
+			productRefGroup = BADA0F488D0D4D71F37CDAD1C1D06262 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */,
-				6C76AC070DB65255C67667F7876EE238 /* MJRefresh */,
-				32CCF78F735E1902D02BA56199191C1B /* Pods-YACOBasicController_Example */,
-				BD3C90B60167544AFB6E5720315C65E9 /* Pods-YACOBasicController_Tests */,
-				DE9FEA7E6E710D3EE45F0DF320596B33 /* WebViewJavascriptBridge */,
-				D5158A1E8D4DA50C5A5BF11C548D6A0F /* YACOBasicController */,
-				57757263AFE6E8EE11BEEBC4E9BE99FA /* YACOBasicUIKit */,
+				C24AA12E5962ED2955FE3A8A86836575 /* Pods-YACOBasicController_Example */,
+				91A542BB44F7ACAB595F022ED20B0925 /* Pods-YACOBasicController_Tests */,
+				C6ACE756A5CDC1CC043168036B6DEC83 /* YACOBasicController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		018CDC3F0BE8B58AD9AD345A0F9329FF /* Resources */ = {
+		54C40BC4278476CB59966F20D92725F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A62873A2F56902EBFA0CFB4210C3FB7 /* Resources */ = {
+		5F47D499E021AC5DF12A487B1AFDB4F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3631397765338B8721AE980179F9432A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48EED2698BC29D481C30FCD9352DFF58 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D77C6B02393BC25628C0A4556594938 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98DA792F2922F46B99D123915FBC6997 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AE12F2BE6E02B5FD8CE827A10E8AB55 /* MJRefresh.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */ = {
+		6795DFE67821676B7E85426C4F32EB1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1309,181 +427,119 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1CE5A56D3BC4D0DE546F5321370B4503 /* Sources */ = {
+		CCD25A3B5822FB1B0DC7C23124983418 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9E3EED882F81CD91BB132437F5C39C /* Pods-YACOBasicController_Example-dummy.m in Sources */,
+				D75C72D3CDD7382626CB7C671545A0D2 /* Pods-YACOBasicController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7244C79E4D291E6F28920D6C15C4FC4C /* Sources */ = {
+		E0FDF3B37B11BA0EA0F9243611436AA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E45795D907269A88804587F6BE9842 /* UIApplication+YACOApplication.m in Sources */,
-				DB3B95DA37A1867576BAF61F92B79EE0 /* UIColor+YACOColor.m in Sources */,
-				7CE0BD9168B5CA5664E4F35D415CAAA0 /* UIDevice+YACODevice.m in Sources */,
-				5BA19B2A727482FAA986249F742235B8 /* UIFont+YACOFont.m in Sources */,
-				48429329F431124EFB11A4DCB4CE44EC /* UILabel+YACOLabel.m in Sources */,
-				E551C3062F5513C5CAFA03FCE4058005 /* UIView+YACOFrame.m in Sources */,
-				89D6E14EF627D0E7A1653AC5D73982DB /* YACOAutoScrollLabel.m in Sources */,
-				D3963B42B9A9E79F983F3FD1CB63E83F /* YACOBasicUIKit-dummy.m in Sources */,
+				5631897B538D8F581B16B9B4DB8BCD43 /* RTRootNavigationController.m in Sources */,
+				6FD34B06E13F2ABD8B4B2338F558CD24 /* UIViewController+RTRootNavigationController.m in Sources */,
+				54719EB5C88BBBA9C07B5B358BC4F2FE /* YACOBasicController-dummy.m in Sources */,
+				092BE61F111B919095F8402E97BB3180 /* YACOBasicNavigationController.m in Sources */,
+				1F9C666D7771594934DA0977D92777A9 /* YACOBasicViewController.m in Sources */,
+				DDFD586902231D407495566E2ECDB421 /* YACOTabBarBasicController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4F3E2D14CC8FEDCB0F16135664D35A7 /* Sources */ = {
+		EBDE82863954FEE6E50D74221E103F09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AB6A36247069FED8CE1E8A70B8078B2 /* MJRefresh-dummy.m in Sources */,
-				27B482E9C5F3EB34714B6B8D6191E7E0 /* MJRefreshAutoFooter.m in Sources */,
-				3722DFABC75D79F738516C37B7519FD1 /* MJRefreshAutoGifFooter.m in Sources */,
-				D3D7E5D28E3A69CDE00EBF8CB78B7642 /* MJRefreshAutoNormalFooter.m in Sources */,
-				4EC72D6C7F6175F658103AB0F6CF7487 /* MJRefreshAutoStateFooter.m in Sources */,
-				E75BE8041D9C6207509DF929DDDA0609 /* MJRefreshBackFooter.m in Sources */,
-				5EECF8D80AF9AF67BA0D135FC9AD0E38 /* MJRefreshBackGifFooter.m in Sources */,
-				AB66F49F133FAE9BD9EAA9A29FAD75EE /* MJRefreshBackNormalFooter.m in Sources */,
-				ECB20F8E693B05B08F6F381A77EA8E9A /* MJRefreshBackStateFooter.m in Sources */,
-				5E99D197383D0876632260B01E279774 /* MJRefreshComponent.m in Sources */,
-				FFE11CC03CCDF7E1887E287E90C98C88 /* MJRefreshConst.m in Sources */,
-				9230DB3D735A7F6E202EEB12671512F9 /* MJRefreshFooter.m in Sources */,
-				C0CFB5EBBA6EA229E940436055CFF398 /* MJRefreshGifHeader.m in Sources */,
-				EA8F03E9D188A9086696DB8B093FAA1C /* MJRefreshHeader.m in Sources */,
-				576EBB347E9329A93FE0EB921A4EA3A1 /* MJRefreshNormalHeader.m in Sources */,
-				4CDD32847C4DFF32E120F87BCE488512 /* MJRefreshStateHeader.m in Sources */,
-				500E95B6B156AC527A884E4861AC138E /* NSBundle+MJRefresh.m in Sources */,
-				DEE3E21758E986E744A24F30DA41B878 /* UIScrollView+MJExtension.m in Sources */,
-				8D63FD9257BAA17CD3E29EADF4A9F4E3 /* UIScrollView+MJRefresh.m in Sources */,
-				FADC4D249D490A2C52E0D0F95F8A098F /* UIView+MJExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B398331DF834465D5C32ABD9611F2E01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD22258E3B0E16BD58BFFDBD00250F4E /* WebViewJavascriptBridge-dummy.m in Sources */,
-				F7CE60A78F6CE38759627800AE106236 /* WebViewJavascriptBridge.m in Sources */,
-				24D55F6A3ADF8F82FDF883FE5FC12ADA /* WebViewJavascriptBridge_JS.m in Sources */,
-				335EA17DFB21B1C23327F2A1849310AD /* WebViewJavascriptBridgeBase.m in Sources */,
-				BDE1C74EA27ECBCACBCB811CD9607C2B /* WKWebViewJavascriptBridge.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6735FC939CD439E865C33F1416D8D12 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5C169039395DA323C675710954E884A /* AFAutoPurgingImageCache.m in Sources */,
-				775FD4041C972482A0AC5A31665EA870 /* AFHTTPSessionManager.m in Sources */,
-				66E037C310853F72B9AB5C84FC410C32 /* AFImageDownloader.m in Sources */,
-				3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */,
-				EF377BD250E23E1145A17E69C5A31F5F /* AFNetworkReachabilityManager.m in Sources */,
-				87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */,
-				F84D5B6C81712530B75013FFA8FA3A3B /* AFURLRequestSerialization.m in Sources */,
-				459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */,
-				8AD5DCF40D6F1D970FAE3C28C7606317 /* AFURLSessionManager.m in Sources */,
-				9CCE08031C818A1904C5E4714830CD04 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				6A7096283C7036C4B97030657219BFEF /* UIButton+AFNetworking.m in Sources */,
-				A5B3CF0C5588B8345E6AD6DAE3851F65 /* UIImageView+AFNetworking.m in Sources */,
-				3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */,
-				8550C1877103EDD75172BAA7A9718236 /* UIRefreshControl+AFNetworking.m in Sources */,
-				CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD21DAB4C56F560429EEDEBA75D761BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D41CF2C36D5B770BCECA1CF88C3670FD /* RTRootNavigationController.m in Sources */,
-				A52C0D8E36E59694B6AFE6D1B255612B /* UIViewController+RTRootNavigationController.m in Sources */,
-				B44540EF4C7F43BA7BF17FC4841927E4 /* YACOBasicController-dummy.m in Sources */,
-				F0F736D702B7F2BD2608E2A0BC940439 /* YACOBasicNavigationController.m in Sources */,
-				7B8CCA5AEB0A7F40A08819DBC64FBF31 /* YACOBasicViewController.m in Sources */,
-				057716239B78B071CBE9F23A80B37A6A /* YACOBasicWKWebController.m in Sources */,
-				BD908560CC7DD05CD296F1DF7CDD0496 /* YACOTabBarBasicController.m in Sources */,
-				1646D16BB3A25030DF599CEA079C817E /* YACOWebProgressView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E297F3630DB33B293C6E7B8804034EE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95C157B9FA910CAB40F0B8B786EBFF78 /* Pods-YACOBasicController_Tests-dummy.m in Sources */,
+				AB4A08A4303E0E5BC3E8288E900D6607 /* Pods-YACOBasicController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		145D4F67FE58F1020DD7E87816843925 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WebViewJavascriptBridge;
-			target = DE9FEA7E6E710D3EE45F0DF320596B33 /* WebViewJavascriptBridge */;
-			targetProxy = C5AC0E4D0FFAF8211C0D94801C10FC16 /* PBXContainerItemProxy */;
-		};
-		3038F740F5C0D39FCDD28BB01FB7E359 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJRefresh;
-			target = 6C76AC070DB65255C67667F7876EE238 /* MJRefresh */;
-			targetProxy = D1B2237D789DFBD06B92FC554254D2B9 /* PBXContainerItemProxy */;
-		};
-		417B9E33848B786DCC1C9F34D2EC3881 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WebViewJavascriptBridge;
-			target = DE9FEA7E6E710D3EE45F0DF320596B33 /* WebViewJavascriptBridge */;
-			targetProxy = 6EA8042125D3E061F25D07B594FC3DDC /* PBXContainerItemProxy */;
-		};
-		65EC110B962C9F894F76EFD42207F387 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJRefresh;
-			target = 6C76AC070DB65255C67667F7876EE238 /* MJRefresh */;
-			targetProxy = EA4ABB0E3F4E60579C1D997644E555BF /* PBXContainerItemProxy */;
-		};
-		6AA48C6014BFD08F7EE2F6342B4DE668 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */;
-			targetProxy = 52A086E292F08A0717BF1CAAD24DF522 /* PBXContainerItemProxy */;
-		};
-		6C02C197AE640D0B6DAEB7841E4BE06B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YACOBasicUIKit;
-			target = 57757263AFE6E8EE11BEEBC4E9BE99FA /* YACOBasicUIKit */;
-			targetProxy = B9613F8B9AE31E87E54025A3278621B6 /* PBXContainerItemProxy */;
-		};
-		91F9DBF422AFBCAD95A2CB59392D5090 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YACOBasicUIKit;
-			target = 57757263AFE6E8EE11BEEBC4E9BE99FA /* YACOBasicUIKit */;
-			targetProxy = 176500E43E9C68BBDF1773E7F67C99FC /* PBXContainerItemProxy */;
-		};
-		AEE2E6BF1B551D080984DA3FCA943496 /* PBXTargetDependency */ = {
+		72F0B29E4302A524432A1F21F062CDD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YACOBasicController;
-			target = D5158A1E8D4DA50C5A5BF11C548D6A0F /* YACOBasicController */;
-			targetProxy = 5B66098F189593B36ED5295A68D155CF /* PBXContainerItemProxy */;
+			target = C6ACE756A5CDC1CC043168036B6DEC83 /* YACOBasicController */;
+			targetProxy = D6AC96624AE88E5E8A48A47892D4DD57 /* PBXContainerItemProxy */;
 		};
-		B3501CB0705328F193A4D99582CD6719 /* PBXTargetDependency */ = {
+		D05C18B15F32864B2236BB1C1DCCCE20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YACOBasicController_Example";
-			target = 32CCF78F735E1902D02BA56199191C1B /* Pods-YACOBasicController_Example */;
-			targetProxy = 7731DF856905B633A362211F3A9A040C /* PBXContainerItemProxy */;
-		};
-		CD8850617A9D5CF2E847A05B18304778 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */;
-			targetProxy = 3BB3EE6277712D53C961F9521D7ECEC7 /* PBXContainerItemProxy */;
+			target = C24AA12E5962ED2955FE3A8A86836575 /* Pods-YACOBasicController_Example */;
+			targetProxy = 43AC344C7D173C4EA9E5C0362FA37FBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		11882B06B51DCF42A565686FE14AD767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82AFD62009816126ECB9B66C09D973D /* Pods-YACOBasicController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicController_Tests/Pods-YACOBasicController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicController_Tests/Pods-YACOBasicController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3585CFA2B14B886B06EC61DA009BED93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120A671E0365933CB3A004799F6EF8D9 /* YACOBasicController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicController/YACOBasicController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YACOBasicController/YACOBasicController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YACOBasicController/YACOBasicController.modulemap";
+				PRODUCT_MODULE_NAME = YACOBasicController;
+				PRODUCT_NAME = YACOBasicController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1538,174 +594,12 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		0C907A1B97D7CE802890640C436EF150 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F9E0D8E7F1F4EE7C565F8349B2C8B28 /* Pods-YACOBasicController_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		15DDDA8E75AAC6240F88D3FD145B9B43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88C157041C444077BAF1ED8BF0515F0E /* YACOBasicUIKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit.modulemap";
-				PRODUCT_MODULE_NAME = YACOBasicUIKit;
-				PRODUCT_NAME = YACOBasicUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1CC2E78D17C918548BEDB4618CCF735D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B21A38907EB107A0D8A9E1D2205348DC /* Pods-YACOBasicController_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		348D62F965AB9477F0D7AE5810E98301 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9078E086FF83BD923301A0A3BE466E8D /* MJRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				PRODUCT_MODULE_NAME = MJRefresh;
-				PRODUCT_NAME = MJRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3B22AFE657F51E681373E12D06AEE348 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C8CFE28E26D14C5BA380FDC074D713 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1764,14 +658,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		763CCA7B1F92F188B8CD1029CE21FF1A /* Debug */ = {
+		A69CE1C0913040C91EDEEFFE46FE4E96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6BD8E44F3BCB5F5B34D9B73CE98C11F /* Pods-YACOBasicController_Tests.debug.xcconfig */;
+			baseConfigurationReference = BF8F1D1F1019DF355C8890D0B531702E /* Pods-YACOBasicController_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1802,103 +696,9 @@
 			};
 			name = Debug;
 		};
-		7D2DC0D00717EA3D62302B9FF120FB19 /* Debug */ = {
+		C2DB06EFED83C06C86E65CDC4A58D40D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64E49B34C0346F5F72259E8F4AD95E32 /* YACOBasicController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicController/YACOBasicController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YACOBasicController/YACOBasicController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YACOBasicController/YACOBasicController.modulemap";
-				PRODUCT_MODULE_NAME = YACOBasicController;
-				PRODUCT_NAME = YACOBasicController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		91A6F453965D74C9E4012393B3449D64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9078E086FF83BD923301A0A3BE466E8D /* MJRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
-				PRODUCT_MODULE_NAME = MJRefresh;
-				PRODUCT_NAME = MJRefresh;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A4427ACC077964CDDA930D885DC6A5BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D21B7B51E1BF5DEBDC380B1D9F9D1ED5 /* WebViewJavascriptBridge.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
-				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
-				PRODUCT_NAME = WebViewJavascriptBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AAA1E96C05F21C69CD43EBBBFB3B5805 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64E49B34C0346F5F72259E8F4AD95E32 /* YACOBasicController.xcconfig */;
+			baseConfigurationReference = 08FE26677C8E150220C5ADE02A5B054A /* YACOBasicController.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1928,9 +728,9 @@
 			};
 			name = Release;
 		};
-		C781AB549C0BD9F8FB51E5F484C09DFA /* Release */ = {
+		C8B68884D6584F6D50FC9542337A128C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CDD082A36A06A19D604C9AC3194BB6C /* Pods-YACOBasicController_Tests.release.xcconfig */;
+			baseConfigurationReference = BCDB665B1BE24FC43BED183CFB88EB65 /* Pods-YACOBasicController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1942,12 +742,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicController_Tests/Pods-YACOBasicController_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicController_Tests/Pods-YACOBasicController_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF72C96B1DAD993ED3CD5600D06E6BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3E9190B3C0DED9A67FCB5EECE750F5 /* Pods-YACOBasicController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1961,172 +794,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		C843DA439FD2CF6B33DF4F0FB1F06C81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C8CFE28E26D14C5BA380FDC074D713 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D362DF93A813A6103C1A80988CB1354F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D21B7B51E1BF5DEBDC380B1D9F9D1ED5 /* WebViewJavascriptBridge.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
-				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
-				PRODUCT_NAME = WebViewJavascriptBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F7A1D9B322F1F3064365ED65EDE4EE93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88C157041C444077BAF1ED8BF0515F0E /* YACOBasicUIKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit.modulemap";
-				PRODUCT_MODULE_NAME = YACOBasicUIKit;
-				PRODUCT_NAME = YACOBasicUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09A65A88E6ABD4334A8289410CFBB563 /* Build configuration list for PBXNativeTarget "YACOBasicController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D2DC0D00717EA3D62302B9FF120FB19 /* Debug */,
-				AAA1E96C05F21C69CD43EBBBFB3B5805 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B22AFE657F51E681373E12D06AEE348 /* Debug */,
-				C843DA439FD2CF6B33DF4F0FB1F06C81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AC9E94FD9FA0004179F6F67C59811AA /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */ = {
+		53C4872A87A56AF9C87BA632401D14ED /* Build configuration list for PBXNativeTarget "YACOBasicController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D362DF93A813A6103C1A80988CB1354F /* Debug */,
-				A4427ACC077964CDDA930D885DC6A5BF /* Release */,
+				3585CFA2B14B886B06EC61DA009BED93 /* Debug */,
+				C2DB06EFED83C06C86E65CDC4A58D40D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75E9EC7604DFFDD241DF21737A2FA9FB /* Build configuration list for PBXNativeTarget "YACOBasicUIKit" */ = {
+		F08393A1429998175C46825B68554E40 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7A1D9B322F1F3064365ED65EDE4EE93 /* Debug */,
-				15DDDA8E75AAC6240F88D3FD145B9B43 /* Release */,
+				A69CE1C0913040C91EDEEFFE46FE4E96 /* Debug */,
+				11882B06B51DCF42A565686FE14AD767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A89F088881DC2C4ACD482C87860F9A12 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicController_Tests" */ = {
+		FD4C06F6448C996DCB890E662ABF7337 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				763CCA7B1F92F188B8CD1029CE21FF1A /* Debug */,
-				C781AB549C0BD9F8FB51E5F484C09DFA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B15979FE5D7353EBA9898381E61E4AD6 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				91A6F453965D74C9E4012393B3449D64 /* Debug */,
-				348D62F965AB9477F0D7AE5810E98301 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D50E0C3B2E8C1ACEFD523F3229F873E2 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicController_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C907A1B97D7CE802890640C436EF150 /* Debug */,
-				1CC2E78D17C918548BEDB4618CCF735D /* Release */,
+				C8B68884D6584F6D50FC9542337A128C /* Debug */,
+				DF72C96B1DAD993ED3CD5600D06E6BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

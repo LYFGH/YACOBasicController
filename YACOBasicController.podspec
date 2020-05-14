@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YACOBasicController'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of YACOBasicController.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,7 @@ TODO: Add long description of the pod here.
 
 #  s.source_files = 'YACOBasicController/Classes/**/*'
   
-  s.dependency 'WebViewJavascriptBridge'
-  s.dependency 'MJRefresh'
-  s.dependency 'YACOBasicUIKit'
+  
   
   s.subspec 'BaseViewController' do |baseViewController|
     baseViewController.source_files = 'YACOBasicController/Classes/BaseViewController/**/*.{h,m}'
@@ -55,13 +53,6 @@ TODO: Add long description of the pod here.
   end
   
   
-  s.subspec 'BaseWebViewController' do |bWebVC|
-    bWebVC.source_files = 'YACOBasicController/Classes/BaseWebViewController/**/*.{h,m}'
-    bWebVC.public_header_files = 'YACOBasicController/Classes/BaseWebViewController/**/*.h'
-    bWebVC.dependency 'YACOBasicController/BaseViewController'
-    
-  end
-  
   
   
   s.subspec 'BaseTabBarController' do |baseTabBar|
@@ -70,6 +61,8 @@ TODO: Add long description of the pod here.
     
     
   end
+  
+  
   
   
   # s.resource_bundles = {
