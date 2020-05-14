@@ -1,0 +1,6 @@
+framework module YACOBasicController {
+  umbrella header "YACOBasicController-umbrella.h"
+
+  export *
+  module * { export * }
+}

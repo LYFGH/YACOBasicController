@@ -1,0 +1,69 @@
+{
+  "name": "YACOBasicController",
+  "version": "0.1.1",
+  "summary": "A short description of YACOBasicController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LYFGH/YACOBasicController.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LYFGH": "yafei_v5@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LYFGH/YACOBasicController.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "WebViewJavascriptBridge": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "YACOBasicUIKit": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "BaseViewController",
+      "source_files": "YACOBasicController/Classes/BaseViewController/**/*.{h,m}",
+      "public_header_files": "YACOBasicController/Classes/BaseViewController/**/*.h"
+    },
+    {
+      "name": "RTRootNavigationController",
+      "source_files": "YACOBasicController/Classes/RTRootNavigationController/**/*.{h,m}",
+      "public_header_files": "YACOBasicController/Classes/RTRootNavigationController/**/*.h"
+    },
+    {
+      "name": "BaseNavigationController",
+      "source_files": "YACOBasicController/Classes/BaseNavigationController/**/*.{h,m}",
+      "public_header_files": "YACOBasicController/Classes/BaseNavigationController/**/*.h",
+      "dependencies": {
+        "YACOBasicController/RTRootNavigationController": [
+
+        ]
+      }
+    },
+    {
+      "name": "BaseWebViewController",
+      "source_files": "YACOBasicController/Classes/BaseWebViewController/**/*.{h,m}",
+      "public_header_files": "YACOBasicController/Classes/BaseWebViewController/**/*.h",
+      "dependencies": {
+        "YACOBasicController/BaseViewController": [
+
+        ]
+      }
+    },
+    {
+      "name": "BaseTabBarController",
+      "source_files": "YACOBasicController/Classes/BaseTabBarController/**/*.{h,m}",
+      "public_header_files": "YACOBasicController/Classes/BaseTabBarController/**/*.h"
+    }
+  ]
+}

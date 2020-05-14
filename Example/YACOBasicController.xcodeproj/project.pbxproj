@@ -60,13 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E713DE3D7D0CBEA0FF657D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E713DE3D7D0CBEA0FF657D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAAAE829A67C3F3508128C15 /* Pods-YACOBasicController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOBasicController_Example.debug.xcconfig"; path = "Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D47F4382E7735F7B5977A096 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D47F4382E7735F7B5977A096 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DD6E91E9611FB6808A0EAF93 /* Pods-YACOBasicController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOBasicController_Tests.release.xcconfig"; path = "Target Support Files/Pods-YACOBasicController_Tests/Pods-YACOBasicController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9FE66A797D63684B780B1B6 /* Pods_YACOBasicController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOBasicController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3237D9D1CFC9B6F760B9545 /* YACOBasicController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YACOBasicController.podspec; path = ../YACOBasicController.podspec; sourceTree = "<group>"; };
+		F3237D9D1CFC9B6F760B9545 /* YACOBasicController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YACOBasicController.podspec; path = ../YACOBasicController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				59693ACA3EC1CD81EDE8EBB5 /* Pods-YACOBasicController_Tests.debug.xcconfig */,
 				DD6E91E9611FB6808A0EAF93 /* Pods-YACOBasicController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -348,13 +348,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YACOBasicController_Example/Pods-YACOBasicController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
 				"${BUILT_PRODUCTS_DIR}/YACOBasicController/YACOBasicController.framework",
+				"${BUILT_PRODUCTS_DIR}/YACOBasicUIKit/YACOBasicUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YACOBasicController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YACOBasicUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

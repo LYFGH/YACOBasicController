@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - MJRefresh (3.1.16)
+  - WebViewJavascriptBridge (6.0.3)
+  - YACOBasicController (0.1.1):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - YACOBasicController/BaseNavigationController (= 0.1.1)
+    - YACOBasicController/BaseTabBarController (= 0.1.1)
+    - YACOBasicController/BaseViewController (= 0.1.1)
+    - YACOBasicController/BaseWebViewController (= 0.1.1)
+    - YACOBasicController/RTRootNavigationController (= 0.1.1)
+    - YACOBasicUIKit
+  - YACOBasicController/BaseNavigationController (0.1.1):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - YACOBasicController/RTRootNavigationController
+    - YACOBasicUIKit
+  - YACOBasicController/BaseTabBarController (0.1.1):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - YACOBasicUIKit
+  - YACOBasicController/BaseViewController (0.1.1):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - YACOBasicUIKit
+  - YACOBasicController/BaseWebViewController (0.1.1):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - YACOBasicController/BaseViewController
+    - YACOBasicUIKit
+  - YACOBasicController/RTRootNavigationController (0.1.1):
+    - MJRefresh
+    - WebViewJavascriptBridge
+    - YACOBasicUIKit
+  - YACOBasicUIKit (0.1.3):
+    - YACOBasicUIKit/UIApplication (= 0.1.3)
+    - YACOBasicUIKit/UIColor (= 0.1.3)
+    - YACOBasicUIKit/UIDevice (= 0.1.3)
+    - YACOBasicUIKit/UIFont (= 0.1.3)
+    - YACOBasicUIKit/UILabel (= 0.1.3)
+    - YACOBasicUIKit/UIView (= 0.1.3)
+  - YACOBasicUIKit/UIApplication (0.1.3)
+  - YACOBasicUIKit/UIColor (0.1.3)
+  - YACOBasicUIKit/UIDevice (0.1.3):
+    - AFNetworking
+  - YACOBasicUIKit/UIFont (0.1.3)
+  - YACOBasicUIKit/UILabel (0.1.3)
+  - YACOBasicUIKit/UIView (0.1.3)
+
+DEPENDENCIES:
+  - YACOBasicController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MJRefresh
+    - WebViewJavascriptBridge
+  https://github.com/LYFGH/YACOSpecs.git:
+    - YACOBasicUIKit
+
+EXTERNAL SOURCES:
+  YACOBasicController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YACOBasicController: 6c77e7a4df4ebb7f910bf56a1bb37e3d45f3ed7b
+  YACOBasicUIKit: fd69c141fe839f959fada64badddf185cd3efc93
+
+PODFILE CHECKSUM: 510dc862b07bedb24f880e89ba87c54a21fa24ea
+
+COCOAPODS: 1.6.1
