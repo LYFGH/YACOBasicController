@@ -6,7 +6,7 @@
 //
 
 #import "YACOWebViewProgressView.h"
-#import "YACOBasicMacros.h"
+#import <YACOBasicUIKit/YACOBasicMacros.h>
 #import <YACOBasicUIKit/YACOBasicUIKit.h>
 @implementation YACOWebViewProgressView
 

@@ -1,0 +1,1 @@
+../../../YACOBasicUIKit/YACOBasicUIKit/Classes/UILabel/YACOAutoScrollLabel.h

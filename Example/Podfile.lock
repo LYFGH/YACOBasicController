@@ -16,11 +16,11 @@ PODS:
     - AFNetworking/NSURLSession
   - MJRefresh (3.4.3)
   - WebViewJavascriptBridge (6.0.3)
-  - YACOBasicController (0.1.4):
+  - YACOBasicController (0.1.5):
     - MJRefresh
     - WebViewJavascriptBridge
     - YACOBasicUIKit
-  - YACOBasicUIKit (0.1.6):
+  - YACOBasicUIKit (0.1.8):
     - AFNetworking
 
 DEPENDENCIES:
@@ -42,9 +42,9 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
-  YACOBasicController: 2b3bfc7e7a69f4d8caff899468906b820c2291b7
-  YACOBasicUIKit: f3eca5f68a776984e84cd4f0f6dadd7ef636ddfe
+  YACOBasicController: 01279e3d5a7ceb028a2f036627cac75775ad9c18
+  YACOBasicUIKit: 453a0c719293c874acab7254faf25f3bdecee1c6
 
-PODFILE CHECKSUM: 510dc862b07bedb24f880e89ba87c54a21fa24ea
+PODFILE CHECKSUM: 1e7dd38c32ffd0c487709a5ca387f09b91c9d314
 
 COCOAPODS: 1.9.1
