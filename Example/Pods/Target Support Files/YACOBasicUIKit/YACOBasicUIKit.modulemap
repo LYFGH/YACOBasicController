@@ -1,0 +1,6 @@
+framework module YACOBasicUIKit {
+  umbrella header "YACOBasicUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

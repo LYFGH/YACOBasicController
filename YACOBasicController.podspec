@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YACOBasicController'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of YACOBasicController.'
 
 # This description is used to generate tags and improve search results.
@@ -29,41 +29,15 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+  
+  s.source_files = 'YACOBasicController/Classes/**/*'
+  s.static_framework = true
+  
+  s.dependency 'MJRefresh'
+  s.dependency 'WebViewJavascriptBridge'
+  s.dependency 'YACOBasicUIKit'
 
-#  s.source_files = 'YACOBasicController/Classes/**/*'
-  
-  
-  
-  s.subspec 'BaseViewController' do |baseViewController|
-    baseViewController.source_files = 'YACOBasicController/Classes/BaseViewController/**/*.{h,m}'
-    baseViewController.public_header_files = 'YACOBasicController/Classes/BaseViewController/**/*.h'
-  end
-  
-  
-  s.subspec 'RTRootNavigationController' do |rTRootNavigationController|
-    rTRootNavigationController.source_files = 'YACOBasicController/Classes/RTRootNavigationController/**/*.{h,m}'
-    rTRootNavigationController.public_header_files = 'YACOBasicController/Classes/RTRootNavigationController/**/*.h'
-  end
-  
-  s.subspec 'BaseNavigationController' do |baseNavigationController|
-    baseNavigationController.source_files = 'YACOBasicController/Classes/BaseNavigationController/**/*.{h,m}'
-    baseNavigationController.public_header_files = 'YACOBasicController/Classes/BaseNavigationController/**/*.h'
-    baseNavigationController.dependency 'YACOBasicController/RTRootNavigationController'
-    
-  end
-  
-  
-  
-  
-  s.subspec 'BaseTabBarController' do |baseTabBar|
-    baseTabBar.source_files = 'YACOBasicController/Classes/BaseTabBarController/**/*.{h,m}'
-    baseTabBar.public_header_files = 'YACOBasicController/Classes/BaseTabBarController/**/*.h'
-    
-    
-  end
-  
-  
-  
   
   # s.resource_bundles = {
   #   'YACOBasicController' => ['YACOBasicController/Assets/*.png']

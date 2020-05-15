@@ -1,6 +1,6 @@
 {
   "name": "YACOBasicController",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "A short description of YACOBasicController.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LYFGH/YACOBasicController.git",
@@ -13,36 +13,22 @@
   },
   "source": {
     "git": "https://github.com/LYFGH/YACOBasicController.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "subspecs": [
-    {
-      "name": "BaseViewController",
-      "source_files": "YACOBasicController/Classes/BaseViewController/**/*.{h,m}",
-      "public_header_files": "YACOBasicController/Classes/BaseViewController/**/*.h"
-    },
-    {
-      "name": "RTRootNavigationController",
-      "source_files": "YACOBasicController/Classes/RTRootNavigationController/**/*.{h,m}",
-      "public_header_files": "YACOBasicController/Classes/RTRootNavigationController/**/*.h"
-    },
-    {
-      "name": "BaseNavigationController",
-      "source_files": "YACOBasicController/Classes/BaseNavigationController/**/*.{h,m}",
-      "public_header_files": "YACOBasicController/Classes/BaseNavigationController/**/*.h",
-      "dependencies": {
-        "YACOBasicController/RTRootNavigationController": [
+  "source_files": "YACOBasicController/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "MJRefresh": [
 
-        ]
-      }
-    },
-    {
-      "name": "BaseTabBarController",
-      "source_files": "YACOBasicController/Classes/BaseTabBarController/**/*.{h,m}",
-      "public_header_files": "YACOBasicController/Classes/BaseTabBarController/**/*.h"
-    }
-  ]
+    ],
+    "WebViewJavascriptBridge": [
+
+    ],
+    "YACOBasicUIKit": [
+
+    ]
+  }
 }
